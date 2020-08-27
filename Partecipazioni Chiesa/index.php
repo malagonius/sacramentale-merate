@@ -16,7 +16,7 @@
 		  	<img src="up.png" id="down" onclick="increaseNumber(false)">
 		  	<label for="home">Da casa <input type="radio" id="home" name="home"></label>
 		  	<label for="chiesa">In Chiesa <input type="radio" id="chiesa" name="home"></label>
-			<div style="margin-left: 30px;" onclick="book()" href="#" class="btn btn-primary"> submit</div>
+			<div style="margin-left: 30px;" onclick="book()" href="#" class="btn btn-primary"> Prenota</div>
 		</div>
 
 
