@@ -47,11 +47,11 @@ book = function(){
 	var pDaCasa = document.getElementById("pDaCasa");
 
 
-	if(nome.value == null){
+	if(nome.value == ""){
 		alert("perfavore inserire un nome");
 		return;
 	}
-	if(quantita == null){
+	if(isNaN(quantita)){
 		alerT("perfavore indicare quanti sarete");
 		return;
 	}
