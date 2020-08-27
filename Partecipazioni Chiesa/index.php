@@ -3,7 +3,6 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"> 
 
-
 <div class="container">
 	<div  class="container img_container">
 		<div class="logo_span"></div>
@@ -14,12 +13,15 @@
 	<div> 
 		<div class="input_container">
 			<label for="name">Famiglia<input type="text" id="name" name="name"></label>
-		  	<label for="quantity">Numero<input type="number" id="quantity" name="quantity" min="1"></label>
-		  	<img src="up.png" id="up" onclick="increaseNumber(true)">
-		  	<img src="up.png" id="down" onclick="increaseNumber(false)">
+		  	<div>
+		  		<label for="quantity">Numero<input type="number" id="quantity" name="quantity" min="1"></label>
+		  		<img src="up.png" id="up" onclick="increaseNumber(true)">
+		  		<img src="up.png" id="down" onclick="increaseNumber(false)">
+		  	</div>
 		  	<label for="home">Da casa <input type="radio" id="home" name="home"></label>
-		  	<label for="chiesa">In Chiesa <input type="radio" id="chiesa" name="home"></label>
-			<div style="margin-left: 30px;" onclick="book()" href="#" class="btn btn-primary"> Prenota</div>
+		  	<label for="chiesa">In Chiesa <input type="radio" id="chiesa" name="home"></label></div>
+		  	<p>
+			<div onclick="book()" href="#" class="btn btn-primary"> Prenota </div>
 		</div>
 
 

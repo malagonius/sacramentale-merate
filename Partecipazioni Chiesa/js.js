@@ -51,7 +51,7 @@ book = function(){
 		alert("perfavore inserire un nome");
 		return;
 	}
-	if(isNaN(quantita)){
+	if(isNaN(quantita) || quantita==null){
 		alerT("perfavore indicare quanti sarete");
 		return;
 	}
@@ -75,7 +75,7 @@ book = function(){
 	lista.appendChild(li);
 
 	nome.value=null;
-	quantity.value=null
+	quantity.value=null;
 
 }
 
