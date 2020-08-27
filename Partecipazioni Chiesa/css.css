@@ -1,0 +1,63 @@
+.logo_span{
+    background: url('ita_logo.svg');
+    width: 310px;
+    height: 100px;
+    background-size: cover;
+    display: inline-block;
+    position: relative;
+    float: left;
+    transform: translateY(50%);}
+
+.logo{
+    background: url('jesus.png');
+    width: 200px;
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+input{margin-left: 10px;}
+input#quantity{width:50px; }
+.input_container{margin-top: 50px;}
+
+#down{background: url(up.png);
+    width: 20px;
+    height: 12px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    top: 10px;
+    transform: rotate(180deg);
+    transform: translateX(-125%) rotate(180deg);
+}
+#up{
+	background: url(up.png);
+    width: 20px;
+    height: 12px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    top: -10px;
+}
+.jumbotron.blue{
+	background-color: #81bdf9;
+}
+
+.jumbotron{
+	margin-top: 50px;
+}
+
+.jumbotron span{font-size: 18px;}
+
+#booked_list{display: inline-grid;}
+
+#booked_list_home{display: inline-grid;}
+
+#availability{
+	margin-top: 40px;
+}
