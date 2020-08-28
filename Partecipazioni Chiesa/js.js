@@ -4,6 +4,8 @@ var curr = document.getElementById("current");
 var limit = document.getElementById("limit");
 var quantity = document.getElementById("quantity");
 
+const fs = require("fs");
+
 window.onload = function(e) {
 	
 	nCorrentePersone = getPrenotazioni();
@@ -76,6 +78,10 @@ book = function(){
 
 	nome.value=null;
 	quantity.value=null;
+
+	<?php
+ 		file_put_contents("data.txt","Hello World. Testing!");
+	?>
 
 }
 
