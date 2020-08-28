@@ -121,7 +121,7 @@ loadData = function(){
     success: function (obj, textstatus) {
       	if( !('error' in obj) ) {
 	      	data = obj.result;
-	      	if(data === ""){
+	      	if(data === false){
 	      		return;
 	      	}
 	      	// fill the table accordingly
@@ -135,9 +135,9 @@ loadData = function(){
 	      		if(row==""){
 	      			return;
 	      		}
+	      		jsonRow = JSON.parse(row);
 	      		li = document.createElement("li");
 	      		li.id=jsonRow.famiglia;
-	      		jsonRow = JSON.parse(row);
 	      		li.innerHTML = "Famiglia: "+jsonRow.famiglia+" | Persone: "+jsonRow.quantita+ " | "+jsonRow.daCasa;
 	      		if(jsonRow.daCasa === "In chiesa"){
 					lista = document.getElementById('booked_list');
