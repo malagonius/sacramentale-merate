@@ -79,9 +79,21 @@ book = function(){
 	nome.value=null;
 	quantity.value=null;
 
-	<?php
- 		file_put_contents("data.txt","Hello World. Testing!");
-	?>
+	jQuery.ajax({
+    type: "POST",
+    url: 'book.php',
+    dataType: 'json',
+    data: {functionname: 'book', arguments: {'famiglia' : nome.value, 'quantita' : quantita, "daCasa" : daCasa}},
+
+    success: function (obj, textstatus) {
+                  if( !('error' in obj) ) {
+                      yourVariable = obj.result;
+                  }
+                  else {
+                      console.log(obj.error);
+                  }
+            }
+	});
 
 }
 
