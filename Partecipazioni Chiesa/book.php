@@ -15,8 +15,8 @@
                    $aResult['error'] = 'Error in arguments!';
                }
                else {
-                   //$json = "{famiglia: "+$_POST['arguments'][0]+", quantita: "+$_POST['arguments'][1]+", daCasa: "+$_POST['arguments'][2]+"}";
-                   $aResult['result'] =  $myfile = file_put_contents('data.txt', $_POST['arguments'] , FILE_APPEND | LOCK_EX);
+                   $v = json_decode(stripslashes(file_get_contents("php://input")));
+                   $aResult['result'] =  $myfile = file_put_contents('data.txt', $v , FILE_APPEND | LOCK_EX);
                }
                break;
 
