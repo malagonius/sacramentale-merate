@@ -7,7 +7,6 @@ var dragEvent = "";
 
 window.onload = function(e) {
 	
-	nCorrentePersone = getPrenotazioni();
 	curr.innerHTML = nCorrentePersone;
 	limit.innerHTML = nMassimoPrenotazioni;
 	var d = new Date();
@@ -137,7 +136,7 @@ loadData = function(){
 	      			return;
 	      		}
 	      		li = document.createElement("li");
-	      		li.id=famiglia;
+	      		li.id=jsonRow.famiglia;
 	      		jsonRow = JSON.parse(row);
 	      		li.innerHTML = "Famiglia: "+jsonRow.famiglia+" | Persone: "+jsonRow.quantita+ " | "+jsonRow.daCasa;
 	      		if(jsonRow.daCasa === "In chiesa"){
