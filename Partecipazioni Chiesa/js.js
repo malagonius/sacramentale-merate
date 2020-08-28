@@ -124,6 +124,8 @@ loadData = function(){
 	      	var li = null;
 	      	var lista = null;
 	      	jsonRow = null;
+	      	curr.innerHTML="0";
+	      	pDaCasa.innerHTML="0";
 	      	var pDaCasa = document.getElementById("pDaCasa");
 	      	cleanLocalLists();
 	      	for(row of list){
