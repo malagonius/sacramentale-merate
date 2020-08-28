@@ -3,10 +3,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"> 
 
-<div class="container">
+<div class="container" onmouseup="drop(event)">
 	<div  class="container img_container">
 		<div class="logo_span"></div>
-		<div class="logo"></div>
+		<div id="logo" class="logo"></div>
 	</div>
 	<h1>Rione di Merate</h1>
 	<h5>Riunione Sacramentale del <span id="giornoSacramentale"></span></h5>
@@ -26,7 +26,7 @@
 
 
 
-		<div id="availability" class="availabilty">
+		<div id="availability" class="availabilty" onmousedown="drag(event)">
 			<ul id="booked_list">
 			</ul>
 			<ul id="booked_list_home">
