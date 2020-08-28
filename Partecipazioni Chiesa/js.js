@@ -126,6 +126,9 @@ loadData = function(){
     success: function (obj, textstatus) {
       	if( !('error' in obj) ) {
 	      	data = obj.result;
+	      	if(data === ""){
+	      		return;
+	      	}
 	      	// fill the table accordingly
 	      	var list = data.split(/\r?\n/);
 	      	var li = null;
