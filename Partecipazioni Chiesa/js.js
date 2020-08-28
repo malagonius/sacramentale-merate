@@ -74,6 +74,7 @@ book = function(){
     success: function (obj, textstatus) {
                   if( !('error' in obj) ) {
                       yourVariable = obj.result;
+                      loadData();
                   }
                   else {
                       console.log(obj.error);
