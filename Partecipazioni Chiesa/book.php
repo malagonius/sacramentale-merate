@@ -11,12 +11,8 @@
 
         switch($_POST['functionname']) {
             case 'book':
-               if( !is_array($_POST['arguments']) || (count($_POST['arguments']) < 2) ) {
-                   $aResult['error'] = 'Error in arguments!';
-               }
-               else {
-                   $v = json_decode(stripslashes(file_get_contents("php://input")));
-                   $aResult['result'] =  $myfile = file_put_contents('data.txt', $v , FILE_APPEND | LOCK_EX);
+                 $v = json_decode(stripslashes(file_get_contents("php://input")));
+                 $aResult['result'] =  $myfile = file_put_contents('data.txt', $v , FILE_APPEND | LOCK_EX);
                }
                break;
 
