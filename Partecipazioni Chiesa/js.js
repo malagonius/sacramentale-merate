@@ -48,35 +48,30 @@ book = function(){
 	var quantita = parseInt(quantity.value);
 	var pDaCasa = document.getElementById("pDaCasa");
 
-	if(validInputs(nome.value,quantita,)){
+	if(validInputs(nome.value,quantita)){
+		var daCasa = fromHome.checked ? "Da casa" : "In chiesa";
+		var json = JSON.stringify({'famiglia': nome.value, 'quantita': quantita, 'daCasa':daCasa})
+		jQuery.ajax({
+	    type: "POST",
+	    url: 'book.php',
+	    dataType: 'json',
+	    data: {functionname: 'book', arguments: json},
 
+	    success: function (obj, textstatus) {
+	                  if( !('error' in obj) ) {
+	                      yourVariable = obj.result;
+	                      loadData();
+	                  }
+	                  else {
+	                      console.log(obj.error);
+	                  }
+	            }
+		});
+
+		nome.value=null;
+		quantity.value=null;
 	}
-
 	
-	var daCasa = fromHome.checked ? "Da casa" : "In chiesa";
-
-	var json = JSON.stringify({'famiglia': nome.value, 'quantita': quantita, 'daCasa':daCasa})
-	jQuery.ajax({
-    type: "POST",
-    url: 'book.php',
-    dataType: 'json',
-    data: {functionname: 'book', arguments: json},
-
-    success: function (obj, textstatus) {
-                  if( !('error' in obj) ) {
-                      yourVariable = obj.result;
-                      loadData();
-                  }
-                  else {
-                      console.log(obj.error);
-                  }
-            }
-	});
-
-	nome.value=null;
-	quantity.value=null;
-
-
 }
 
 drag = function(event){
@@ -166,6 +161,7 @@ cleanLocalLists = function(){
 }
 
 validInputs = function(nome,quantita){
+	var ret = true;
 	if(nome === ""){
 		alert("perfavore inserire un nome");
 		return false;
@@ -182,7 +178,8 @@ validInputs = function(nome,quantita){
 	for(var i=0; i< churchList.length;i++){
 		if(churchList[i].id === nome){
 			alert("Nome gia inserito! Perfavore scegliere un altro nome");
-			return false;
+			ret= false;
+			return;
 		}
 	}
 
@@ -190,8 +187,10 @@ validInputs = function(nome,quantita){
 	for(var i=0; i< homeList.length;i++){
 		if(homeList[i].id === nome){
 			alert("Nome gia inserito! Perfavore scegliere un altro nome");
-			return false;
+			ret = false;
+			return;
+
 		}
 	}
-	return true;
+	return ret;
 }
