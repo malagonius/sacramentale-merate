@@ -146,10 +146,10 @@ loadData = function(){
 	      		li.innerHTML = "Famiglia: "+jsonRow.famiglia+" | Persone: "+jsonRow.quantita+ " | "+jsonRow.daCasa;
 	      		if(jsonRow.daCasa === "In chiesa"){
 					lista = document.getElementById('booked_list');
-					curr.innerHTML = (parseInt(curr.innerHTML)+quantita);
+					curr.innerHTML = (parseInt(curr.innerHTML)+jsonRow.quantita);
 				}else{
 					lista = document.getElementById('booked_list_home');
-					pDaCasa.innerHTML = (parseInt(pDaCasa.innerHTML)+quantita);
+					pDaCasa.innerHTML = (parseInt(pDaCasa.innerHTML)+jsonRow.quantita);
 				}
 				lista.appendChild(li);
 	      	}
