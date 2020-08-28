@@ -45,4 +45,7 @@
 	</div>
 </div>
 
+
+<script type="text/javascript" src="jQuery.js"></script>
 <script type="text/javascript" src="js.js"></script>
+
