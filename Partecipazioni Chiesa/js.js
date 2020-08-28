@@ -3,7 +3,7 @@ var nCorrentePersone = 0;
 var curr = document.getElementById("current");
 var limit = document.getElementById("limit");
 var quantity = document.getElementById("quantity");
-var dragEvent = null;
+var dragEvent = "";
 
 window.onload = function(e) {
 	
@@ -96,8 +96,8 @@ drag = function(event){
 }
 
 drop = function(event){
-	if(event.target.id="logo"){
-		if(dragEvent.id="availability"){
+	if(event.target.id=="logo"){
+		if(dragEvent.id=="availability"){
 			var json = "{}";
 			jQuery.ajax({
 		    type: "POST",
@@ -118,7 +118,7 @@ drop = function(event){
 			return;
 		}
 	}
-	dragEvent = null;
+	dragEvent = "";
 }
 
 loadData = function(){
