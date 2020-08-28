@@ -11,7 +11,7 @@
 
         switch($_POST['functionname']) {
             case 'book':
-                 $aResult['result'] =  $myfile = file_put_contents('data.txt', $_POST['arguments'] , FILE_APPEND | LOCK_EX);
+                 $aResult['result'] = file_put_contents('data.txt', $_POST['arguments'] , FILE_APPEND | LOCK_EX);
                }
                break;
 
@@ -22,6 +22,6 @@
 
     }
 
-    echo json_encode($_POST['arguments']);
+    echo json_encode($aResult);
 
 ?>
