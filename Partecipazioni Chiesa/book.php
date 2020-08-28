@@ -11,7 +11,7 @@
 
         switch($_POST['functionname']) {
             case 'book':
-                 $aResult['result'] = file_put_contents('data.txt', $_POST['arguments'] , FILE_APPEND | LOCK_EX);
+                 $aResult['result'] = file_put_contents('data.txt', "a" , FILE_APPEND | LOCK_EX);
                }
                break;
 
