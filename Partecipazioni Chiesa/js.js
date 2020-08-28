@@ -74,7 +74,7 @@ book = function(){
 	}
 	lista.appendChild(li);
 
-	var json = JSON.stringify({"famiglia": nome.value, "quantita": quantita, "daCasa:"daCasa})
+	var json = JSON.stringify({"famiglia": nome.value, "quantita": quantita, "daCasa":daCasa})
 	jQuery.ajax({
     type: "POST",
     url: 'book.php',
