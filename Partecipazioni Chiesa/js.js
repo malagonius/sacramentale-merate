@@ -49,19 +49,11 @@ book = function(){
 	var quantita = parseInt(quantity.value);
 	var pDaCasa = document.getElementById("pDaCasa");
 
+	if(validInputs()){
 
-	if(nome.value == ""){
-		alert("perfavore inserire un nome");
-		return;
 	}
-	if(isNaN(quantita) || quantita==null){
-		alerT("perfavore indicare quanti sarete");
-		return;
-	}
-	if(parseInt(curr.innerHTML)+quantita > nMassimoPrenotazioni){
-		alert("Impossibile prenotare!! Il numero massimo di prenotazioni '"+nMassimoPrenotazioni+"' è stato superato");
-		return;
-	}
+
+	
 	var daCasa = fromHome.checked ? "Da casa" : "In chiesa";
 
 	var json = JSON.stringify({'famiglia': nome.value, 'quantita': quantita, 'daCasa':daCasa})
@@ -140,8 +132,13 @@ loadData = function(){
 	      	var lista = null;
 	      	jsonRow = null;
 	      	var pDaCasa = document.getElementById("pDaCasa");
+	      	cleanLocalLists();
 	      	for(row of list){
+	      		if(row==""){
+	      			return;
+	      		}
 	      		li = document.createElement("li");
+	      		li.id=famiglia;
 	      		jsonRow = JSON.parse(row);
 	      		li.innerHTML = "Famiglia: "+jsonRow.famiglia+" | Persone: "+jsonRow.quantita+ " | "+jsonRow.daCasa;
 	      		if(jsonRow.daCasa === "In chiesa"){
@@ -162,4 +159,41 @@ loadData = function(){
 	});
 
 	
+}
+
+cleanLocalLists = function(){
+	document.getElementById("booked_list").innerHTML="";
+	document.getElementById("booked_list_home").innerHTML="";
+
+}
+
+validInputs = function(name){
+	if(nome.value == ""){
+		alert("perfavore inserire un nome");
+		return false;
+	}
+	if(isNaN(quantita) || quantita==null){
+		alerT("perfavore indicare quanti sarete");
+		return false;
+	}
+	if(parseInt(curr.innerHTML)+quantita > nMassimoPrenotazioni){
+		alert("Impossibile prenotare!! Il numero massimo di prenotazioni '"+nMassimoPrenotazioni+"' è stato superato");
+		return false;
+	}
+	var churchList = document.getElementById("booked_list");
+	for(row in churchList.children){
+		if(row.id === name){
+			alert("Nome gia inserito! Perfavore scegliere un altro nome");
+			return false;
+		}
+	}
+
+	var homeList = document.getElementById("booked_list_home");
+	for(row in homeList.children){
+		if(row.id === name){
+			alert("Nome gia inserito! Perfavore scegliere un altro nome");
+			return false;
+		}
+	}
+	return true;
 }
