@@ -3,6 +3,7 @@ var nCorrentePersone = 0;
 var curr = document.getElementById("current");
 var limit = document.getElementById("limit");
 var quantity = document.getElementById("quantity");
+var pDaCasa = document.getElementById("pDaCasa");
 var dragEvent = "";
 
 window.onload = function(e) {
@@ -124,9 +125,7 @@ loadData = function(){
 	      	var li = null;
 	      	var lista = null;
 	      	jsonRow = null;
-	      	curr.innerHTML="0";
-	      	pDaCasa.innerHTML="0";
-	      	var pDaCasa = document.getElementById("pDaCasa");
+
 	      	cleanLocalLists();
 	      	for(row of list){
 	      		if(row==""){
@@ -159,7 +158,8 @@ loadData = function(){
 cleanLocalLists = function(){
 	document.getElementById("booked_list").innerHTML="";
 	document.getElementById("booked_list_home").innerHTML="";
-
+  	curr.innerHTML="0";
+  	pDaCasa.innerHTML="0";
 }
 
 validInputs = function(nome,quantita){
