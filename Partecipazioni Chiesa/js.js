@@ -180,7 +180,7 @@ validInputs = function(nome,quantita){
 	}
 	var churchList = document.getElementById("booked_list").children;
 	for(var i=0; i< churchList.length;i++){
-		if(churchList.children[i].id === name){
+		if(churchList[i].id === nome){
 			alert("Nome gia inserito! Perfavore scegliere un altro nome");
 			return false;
 		}
