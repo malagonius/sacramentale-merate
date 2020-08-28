@@ -74,12 +74,12 @@ book = function(){
 	}
 	lista.appendChild(li);
 
-	
+	var json = "{famiglia:"+nome.value",quantita: "+quantita" ,daCasa: "+daCasa"}";
 	jQuery.ajax({
     type: "POST",
     url: 'book.php',
     dataType: 'json',
-    data: {functionname: 'book', arguments: [nome.value,quantita,daCasa]},
+    data: {functionname: 'book', arguments: json},
 
     success: function (obj, textstatus) {
                   if( !('error' in obj) ) {
