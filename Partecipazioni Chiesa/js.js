@@ -74,14 +74,12 @@ book = function(){
 	}
 	lista.appendChild(li);
 
-	nome.value=null;
-	quantity.value=null;
-
+	
 	jQuery.ajax({
     type: "POST",
     url: 'book.php',
     dataType: 'json',
-    data: {functionname: 'book', arguments: {'famiglia' : nome.value, 'quantita' : quantita, "daCasa" : daCasa}},
+    data: {functionname: 'book', arguments: [nome.value,quantita,daCasa]},
 
     success: function (obj, textstatus) {
                   if( !('error' in obj) ) {
@@ -92,6 +90,10 @@ book = function(){
                   }
             }
 	});
+
+	nome.value=null;
+	quantity.value=null;
+
 
 }
 
