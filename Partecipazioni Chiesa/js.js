@@ -178,17 +178,17 @@ validInputs = function(nome,quantita){
 		alert("Impossibile prenotare!! Il numero massimo di prenotazioni '"+nMassimoPrenotazioni+"' è stato superato");
 		return false;
 	}
-	var churchList = document.getElementById("booked_list");
-	for(row in churchList.children){
-		if(churchList.children[row].id === name){
+	var churchList = document.getElementById("booked_list").children;
+	for(var i=0; i< churchList.length;i++){
+		if(churchList.children[i].id === name){
 			alert("Nome gia inserito! Perfavore scegliere un altro nome");
 			return false;
 		}
 	}
 
-	var homeList = document.getElementById("booked_list_home");
-	for(row in homeList.children){
-		if(homeList[row].id === nome){
+	var homeList = document.getElementById("booked_list_home").children;
+	for(var i=0; i< homeList.length;i++){
+		if(homeList[i].id === nome){
 			alert("Nome gia inserito! Perfavore scegliere un altro nome");
 			return false;
 		}
