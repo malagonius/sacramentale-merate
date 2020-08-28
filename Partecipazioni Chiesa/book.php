@@ -1,6 +1,17 @@
     <?php
     header('Content-Type: application/json');
 
+    
+
+
+
+
+
+
+
+
+
+/*
     $aResult = array();
 
     if( !isset($_POST['functionname']) ) { $aResult['error'] = 'No function name!'; }
@@ -12,9 +23,9 @@
         switch($_POST['functionname']) {
             case 'book':
                  //$v = json_decode(stripslashes(file_get_contents("php://input")));
-                 $inputJSON = file_get_contents('php://input');
-                 $input= json_decode( $inputJSON ); 
-                 $aResult['result'] =  $myfile = file_put_contents('data.txt', $inputJSON , FILE_APPEND | LOCK_EX);
+                 //$inputJSON = $_POST['arguments'];
+                 $input= json_decode( $_POST['arguments'], true ); 
+                 $aResult['result'] =  $myfile = file_put_contents('data.txt', $input , FILE_APPEND | LOCK_EX);
                }
                break;
 
@@ -24,7 +35,7 @@
         }
 
     }
-
-    echo json_encode($aResult);
+*/
+    echo json_encode($_POST['arguments']);
 
 ?>
