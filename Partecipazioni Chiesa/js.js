@@ -4,8 +4,6 @@ var curr = document.getElementById("current");
 var limit = document.getElementById("limit");
 var quantity = document.getElementById("quantity");
 
-const fs = require("fs");
-
 window.onload = function(e) {
 	
 	nCorrentePersone = getPrenotazioni();
