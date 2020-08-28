@@ -49,7 +49,7 @@ book = function(){
 	var quantita = parseInt(quantity.value);
 	var pDaCasa = document.getElementById("pDaCasa");
 
-	if(validInputs()){
+	if(validInputs(nome.value,quantita,)){
 
 	}
 
@@ -78,10 +78,6 @@ book = function(){
 	quantity.value=null;
 
 
-}
-
-getPrenotazioni = function(){
-	return 0;
 }
 
 drag = function(event){
@@ -170,8 +166,8 @@ cleanLocalLists = function(){
 
 }
 
-validInputs = function(name){
-	if(nome.value == ""){
+validInputs = function(nome,quantita){
+	if(nome === ""){
 		alert("perfavore inserire un nome");
 		return false;
 	}
@@ -193,7 +189,7 @@ validInputs = function(name){
 
 	var homeList = document.getElementById("booked_list_home");
 	for(row in homeList.children){
-		if(row.id === name){
+		if(row.id === nome){
 			alert("Nome gia inserito! Perfavore scegliere un altro nome");
 			return false;
 		}
