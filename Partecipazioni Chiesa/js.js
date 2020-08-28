@@ -180,7 +180,7 @@ validInputs = function(nome,quantita){
 	}
 	var churchList = document.getElementById("booked_list");
 	for(row in churchList.children){
-		if(row.id === name){
+		if(churchList.children[row].id === name){
 			alert("Nome gia inserito! Perfavore scegliere un altro nome");
 			return false;
 		}
@@ -188,7 +188,7 @@ validInputs = function(nome,quantita){
 
 	var homeList = document.getElementById("booked_list_home");
 	for(row in homeList.children){
-		if(row.id === nome){
+		if(homeList[row].id === nome){
 			alert("Nome gia inserito! Perfavore scegliere un altro nome");
 			return false;
 		}
