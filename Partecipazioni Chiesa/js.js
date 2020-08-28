@@ -6,6 +6,7 @@ var quantity = document.getElementById("quantity");
 var pDaCasa = document.getElementById("pDaCasa");
 var dragEvent = "";
 
+
 window.onload = function(e) {
 	
 	curr.innerHTML = nCorrentePersone;
