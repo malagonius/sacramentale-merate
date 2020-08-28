@@ -12,7 +12,9 @@
         switch($_POST['functionname']) {
             case 'book':
                  //$v = json_decode(stripslashes(file_get_contents("php://input")));
-                 $aResult['result'] =  $myfile = file_put_contents('data.txt', $_POST['arguments'] , FILE_APPEND | LOCK_EX);
+                 $inputJSON = file_get_contents('php://input');
+                 $input= json_decode( $inputJSON ); 
+                 $aResult['result'] =  $myfile = file_put_contents('data.txt', $inputJSON , FILE_APPEND | LOCK_EX);
                }
                break;
 
