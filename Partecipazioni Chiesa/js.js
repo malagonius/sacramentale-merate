@@ -157,7 +157,7 @@ loadData = function(){
 	      	cleanLocalLists();
 	      	for(row of list){
 	      		if(row==""){
-	      			break;
+	      			continue;
 	      		}
 	      		jsonRow = JSON.parse(row);
 	      		li = document.createElement("li");
