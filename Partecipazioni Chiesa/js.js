@@ -77,7 +77,7 @@ book = function(){
 }
 
 drag = function(event){
-	dragEvent = event.currentTarget;
+	dragEvent = event.target;
 }
 
 drop = function(event){
@@ -101,6 +101,33 @@ drop = function(event){
 		            }
 			});
 			return;
+		}
+	}
+	if(event.target.id=="annunci-container"){
+		if(dragEvent.id=="availability"){
+			var annuncio = prompt("Please enter your name:", "Sostituiscimi con il tuo annuncio");
+			var msg="";
+			if (person == null || person == "") {
+			    msg = "User cancelled the prompt.";
+			} else {
+			    var json = annuncio;
+				jQuery.ajax({
+			    type: "POST",
+			    url: 'book.php',
+			    dataType: 'json',
+			    data: {functionname: 'delete-all', arguments: json},
+
+			    success: function (obj, textstatus) {
+			                  if( !('error' in obj) ) {
+			                      yourVariable = obj.result;
+			                      loadData();
+			                  }
+			                  else {
+			                      console.log(obj.error);
+			                  }
+			            }
+				});
+			}
 		}
 	}
 	dragEvent = "";
@@ -130,7 +157,7 @@ loadData = function(){
 	      	cleanLocalLists();
 	      	for(row of list){
 	      		if(row==""){
-	      			return;
+	      			break;
 	      		}
 	      		jsonRow = JSON.parse(row);
 	      		li = document.createElement("li");
