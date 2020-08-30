@@ -5,7 +5,7 @@ var limit = document.getElementById("limit");
 var quantity = document.getElementById("quantity");
 var pDaCasa = document.getElementById("pDaCasa");
 var dragEvent = "";
-var accessToken = "?access_token=be4b6915e78cb6475565781eaf0f9fc17c093bf1";
+var accessToken = "?&access_token=be4b6915e78cb6475565781eaf0f9fc17c093bf1";
 var CORS = "https://cors-anywhere.herokuapp.com/";
 
 
