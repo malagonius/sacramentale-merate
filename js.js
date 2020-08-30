@@ -75,11 +75,11 @@ book = function(){
 				    "Authorization": "Basic bWFsYWdvbml1czo0NjJhMjZjZjA3ZTMxMTU5NzkyMzFmNjkzNjIxOTk4NzdmYmQ3ODAx",
 				    "Content-Type": "application/json",
 				},
-		  	data: {
+		  	data: JSON.stringify({
     			"message": nome.value+" just subscribed",
     			"content": btoa(data),
     			"sha": sha256(data)
-		    },
+		    }),
 		  
 		})
 		  .done(function( msg ) {
