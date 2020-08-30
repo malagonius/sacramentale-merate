@@ -70,7 +70,7 @@ book = function(){
 		 	url: CORS+uploadURL,
 		  	contentType: "application/json",
 		  	dataType: "json",
-		  	Header: "Authorization: token "+accessToken
+		  	Header: "Authorization: token "+accessToken,
 		  	data: {
 		    	"message": "my commit message",
 		    	"committer": {
