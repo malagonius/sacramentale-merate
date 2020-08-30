@@ -70,6 +70,11 @@ book = function(){
 		 	url: CORS+uploadURL,
 		  	contentType: "application/json",
 		  	dataType: "json",
+		  	headers: {
+		  		    "accept": "application/vnd.github.v3+json",
+				    "Authorization": "Basic bWFsYWdvbml1czo0NjJhMjZjZjA3ZTMxMTU5NzkyMzFmNjkzNjIxOTk4NzdmYmQ3ODAx",
+				    "Content-Type": "application/json",
+		  	}
 		  	data: {
     			"message": nome.value+" just subscribed",
     			"content": btoa(data),
