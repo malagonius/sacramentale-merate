@@ -179,8 +179,8 @@ loadData = function(){
 
     success: function (obj, textstatus) {
       	if( !('error' in obj) ) {
-	      	loadedData=obj.result;
-	      	data = atob(obj.result.content);
+	      	loadedData=obj;
+	      	data = atob(obj.content);
 	      	if(data === false){
 	      		return;
 	      	}
