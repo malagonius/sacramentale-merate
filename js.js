@@ -76,7 +76,6 @@ book = function(){
 		      	"email": "nicotra23mattia@gmail.com"
 		    },
 	    	"content": json,
-		    "sha": //omitted for stack overflow
 		  }
 		})
 		  .done(function( msg ) {
