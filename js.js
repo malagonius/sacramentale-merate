@@ -7,10 +7,6 @@ var pDaCasa = document.getElementById("pDaCasa");
 var dragEvent = "";
 var accessToken = "be4b6915e78cb6475565781eaf0f9fc17c093bf1";
 var CORS = "https://cors-anywhere.herokuapp.com/";
-var GitHub = require('github-api');
-var api;
-var owner="malagonius";
-var repo = "sacramentale-merate";
 
 
 window.onload = function(e) {
@@ -21,11 +17,7 @@ window.onload = function(e) {
 	var giorno=d.addDays(7-d.getDay());
 	var myDateString = ("0"+giorno.getDate()).slice(-2)+"/"+("0"+(giorno.getMonth()+1)).slice(-2);
 	document.getElementById("giornoSacramentale").innerHTML=myDateString;
-	var gh = new GitHub({
-   		token = accessToken
-   	});
-	api = new GithubAPI({ token: accessToken});
-	api.setRepo(owner, repo);
+
 	loadData();
 }
 
@@ -69,23 +61,30 @@ book = function(){
 		var daCasa = fromHome.checked ? "Da casa" : "In chiesa";
 		var json = JSON.stringify({'famiglia': nome.value, 'quantita': quantita, 'daCasa':daCasa})
 		
-		//var uploadURL ="https://api.github.com/repos/malagonius/sacramentale-merate/data.txt";
+		var uploadURL ="https://api.github.com/repos/malagonius/sacramentale-merate/data.txt";
 
 		console.log(uploadURL);
 
-		api.setBranch(branch).then(function () {
-                            return api.pushFiles(
-                                'CMS Update',
-                                [
-                                    {
-                                        content: json,
-                                        path: 'data.txt'
-                                    }
-                                ]
-                            );
-                        }).then(function () {
-                            console.log('Files committed!');
-                        });
+		$.ajax({
+		 	type: "POST",
+		 	url: CORS+uploadURL,
+		 	beforeSend : function(xhr){
+		 		xhr.setRequestHeader("Authorization", "token "+accessToken)
+		 	}
+		  	contentType: "application/json",
+		  	dataType: "json",
+		  	data: {
+		    	"message": "my commit message",
+		    	"committer": {
+		      	"name": nome.value,
+		      	"email": "nicotra23mattia@gmail.com"
+		    },
+	    	"content": json,
+		  }
+		})
+		  .done(function( msg ) {
+		    console.log( "Data Saved: " + json );
+		  });
 
 
 
