@@ -17,7 +17,7 @@
                break;
 
             case 'load':
-                  $aResult['result'] = file_get_contents('https://github.com/malagonius/sacramentale-merate/contributors/master/data.txt');
+                  $aResult['result'] = file_get_contents('data.txt');
                 break;
                 
             case 'delete-all':
