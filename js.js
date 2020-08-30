@@ -5,7 +5,7 @@ var limit = document.getElementById("limit");
 var quantity = document.getElementById("quantity");
 var pDaCasa = document.getElementById("pDaCasa");
 var dragEvent = "";
-var accessToken = "?&access_token=be4b6915e78cb6475565781eaf0f9fc17c093bf1";
+var accessToken = "be4b6915e78cb6475565781eaf0f9fc17c093bf1";
 var CORS = "https://cors-anywhere.herokuapp.com/";
 
 
@@ -61,7 +61,7 @@ book = function(){
 		var daCasa = fromHome.checked ? "Da casa" : "In chiesa";
 		var json = JSON.stringify({'famiglia': nome.value, 'quantita': quantita, 'daCasa':daCasa})
 		
-		var uploadURL ="https://api.github.com/repos/malagonius/sacramentale-merate/data.txt" + accessToken;
+		var uploadURL ="https://api.github.com/repos/malagonius/sacramentale-merate/data.txt";
 
 		console.log(uploadURL);
 
@@ -70,6 +70,7 @@ book = function(){
 		 	url: CORS+uploadURL,
 		  	contentType: "application/json",
 		  	dataType: "json",
+		  	authorization = "token "+accessToken,
 		  	data: {
 		    	"message": "my commit message",
 		    	"committer": {
@@ -170,7 +171,7 @@ loadData = function(){
 	var json = "{}";
 	jQuery.ajax({
     type: "POST",
-    url: CORS+'https://raw.github.com/malagonius/sacramentale-merate/master/data.txt'+accessToken,
+    url: CORS+'https://raw.github.com/malagonius/sacramentale-merate/master/data.txt',
     dataType: 'json',
 
     success: function (obj, textstatus) {
