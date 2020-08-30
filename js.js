@@ -62,7 +62,7 @@ book = function(){
 		var daCasa = fromHome.checked ? "Da casa" : "In chiesa";
 		var json = JSON.stringify({'famiglia': nome.value, 'quantita': quantita, 'daCasa':daCasa})
 		
-		var uploadURL ="https://api.github.com/repos/malagonius/sacramentale-merate/contents/data.txt"+accessToken;
+		var uploadURL ="https://api.github.com/repos/malagonius/sacramentale-merate/contents/data.txt";
 		var data = loadedData+"\n"+json;
 
 		$.ajax({
