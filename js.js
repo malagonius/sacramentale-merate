@@ -70,7 +70,7 @@ book = function(){
 		 	url: CORS+uploadURL,
 		 	beforeSend : function(xhr){
 		 		xhr.setRequestHeader("Authorization", "token "+accessToken)
-		 	}
+		 	},
 		  	contentType: "application/json",
 		  	dataType: "json",
 		  	data: {
