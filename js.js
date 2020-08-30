@@ -5,6 +5,7 @@ var limit = document.getElementById("limit");
 var quantity = document.getElementById("quantity");
 var pDaCasa = document.getElementById("pDaCasa");
 var dragEvent = "";
+var accessToken = "?access_token=be4b6915e78cb6475565781eaf0f9fc17c093bf1";
 
 
 window.onload = function(e) {
@@ -59,7 +60,6 @@ book = function(){
 		var daCasa = fromHome.checked ? "Da casa" : "In chiesa";
 		var json = JSON.stringify({'famiglia': nome.value, 'quantita': quantita, 'daCasa':daCasa})
 		
-		var accessToken = "?access_token=be4b6915e78cb6475565781eaf0f9fc17c093bf1";
 		var uploadURL ="https://api.github.com/repos/malagonius/sacramentale-merate/data.txt" + accessToken;
 
 		console.log(uploadURL);
@@ -169,7 +169,7 @@ loadData = function(){
 	var json = "{}";
 	jQuery.ajax({
     type: "POST",
-    url: 'https://raw.github.com/malagonius/sacramentale-merate/master/data.txt',
+    url: 'https://raw.github.com/malagonius/sacramentale-merate/master/data.txt'+accessToken,
     dataType: 'json',
 
     success: function (obj, textstatus) {
