@@ -51,12 +51,16 @@ input#quantity{width:50px; }
 .jumbotron{
 	margin-top: 50px;
 }
+.annunci-container{margin-top: 40px;}
+
+label{width:65px;}
 
 .jumbotron span{font-size: 18px;}
 
 #booked_list{display: inline-grid;}
 
 #booked_list_home{display: inline-grid;}
+
 
 #availability{
 	margin-top: 40px;

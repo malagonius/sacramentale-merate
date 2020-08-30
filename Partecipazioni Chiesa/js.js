@@ -12,12 +12,17 @@ window.onload = function(e) {
 	curr.innerHTML = nCorrentePersone;
 	limit.innerHTML = nMassimoPrenotazioni;
 	var d = new Date();
-	var giorno=d.getDate();
-	var n = d.getDay()
-	giorno += 7-n; 
-	document.getElementById("giornoSacramentale").innerHTML=giorno+"/"+parseInt(d.getMonth()+1);
+	var giorno=d.addDays(7-d.getDay());
+	var myDateString = ("0"+giorno.getDate()).slice(-2)+"/"+("0"+(giorno.getMonth()+1)).slice(-2);
+	document.getElementById("giornoSacramentale").innerHTML=myDateString;
 
 	loadData();
+}
+
+Date.prototype.addDays = function(days) {
+    var date = new Date(this.valueOf());
+    date.setDate(date.getDate() + days);
+    return date;
 }
 
 increaseNumber = function(isUp){
