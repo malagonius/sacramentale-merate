@@ -172,7 +172,7 @@ loadData = function(){
 
 	var json = "{}";
 	jQuery.ajax({
-    type: "POST",
+    type: "GET",
     //url: CORS+'https://raw.github.com/malagonius/sacramentale-merate/master/data.txt',
     url: "https://api.github.com/repos/malagonius/sacramentale-merate/contents/data.txt",
     dataType: 'json',
