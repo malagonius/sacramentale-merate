@@ -11,7 +11,7 @@
 
         switch($_POST['functionname']) {
             $ch = curl_init();
-            curl_setopt($ch, CURLOPT_URL, 'https://raw.githubusercontent.com/malagonius/sacramentale-merate/master/data.txt');
+            curl_setopt($ch, CURLOPT_URL, 'https://raw.githubusercontent.com/octocat/Spoon-Knife/master/index.html');
             curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
             curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
             $data = curl_exec($ch);
