@@ -10,12 +10,6 @@
     if( !isset($aResult['error']) ) {
 
         switch($_POST['functionname']) {
-            $ch = curl_init();
-            curl_setopt($ch, CURLOPT_URL, 'https://raw.githubusercontent.com/octocat/Spoon-Knife/master/index.html');
-            curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
-            curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-            $data = curl_exec($ch);
-            curl_close($ch);
 
             case 'book': 
 
@@ -23,8 +17,7 @@
                break;
 
             case 'load':
-
-                  $aResult['result'] =  $data;
+                  $aResult['result'] = file_get_contents('https://github.com/malagonius/sacramentale-merate/contributors/master/data.txt');
                 break;
                 
             case 'delete-all':
