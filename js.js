@@ -6,6 +6,7 @@ var quantity = document.getElementById("quantity");
 var pDaCasa = document.getElementById("pDaCasa");
 var dragEvent = "";
 var accessToken = "?access_token=be4b6915e78cb6475565781eaf0f9fc17c093bf1";
+var CORS = "https://cors-anywhere.herokuapp.com/";
 
 
 window.onload = function(e) {
@@ -66,7 +67,7 @@ book = function(){
 
 		$.ajax({
 		 	type: "POST",
-		 	url: uploadURL,
+		 	url: CORS+uploadURL,
 		  	contentType: "application/json",
 		  	dataType: "json",
 		  	data: {
@@ -169,7 +170,7 @@ loadData = function(){
 	var json = "{}";
 	jQuery.ajax({
     type: "POST",
-    url: 'https://raw.github.com/malagonius/sacramentale-merate/master/data.txt'+accessToken,
+    url: CORS+'https://raw.github.com/malagonius/sacramentale-merate/master/data.txt'+accessToken,
     dataType: 'json',
 
     success: function (obj, textstatus) {
