@@ -5,3 +5,4 @@
 {"famiglia":"Davide Gessati","quantita":1,"daCasa":"In chiesa"}
 {"famiglia":"Michela Gessati","quantita":5,"daCasa":"Da casa"}
 {"famiglia":"Tony","quantita":1,"daCasa":"Da casa"}
+{"famiglia":"Daniele Nicotra","quantita":5,"daCasa":"Da casa"}
