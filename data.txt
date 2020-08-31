@@ -6,3 +6,5 @@
 {"famiglia":"Tony","quantita":1,"daCasa":"Da casa"}
 {"famiglia":"Daniele Nicotra","quantita":5,"daCasa":"Da casa"}
 {"famiglia":"Jason","quantita":2,"daCasa":"In chiesa"}
+
+{"famiglia":"Fossati","quantita":2,"daCasa":"In chiesa"}
