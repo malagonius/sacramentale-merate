@@ -51,7 +51,7 @@ input#quantity{width:50px; }
 .jumbotron{
 	margin-top: 50px;
 }
-.annunci-container{margin-top: 40px;}
+.annunci-container{margin-top: 40px; display: none !important;}
 
 label{width:65px;}
 
