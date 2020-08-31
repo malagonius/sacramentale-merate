@@ -40,9 +40,9 @@
 	</div>
 
 	<p class="annunci-container">
-  		<a class="btn btn-primary" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Attiva primo annuncio</a>
-  		<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Attiva secondo annuncio</button>
- 		<button class="btn btn-primary" type="button" data-toggle="collapse" data-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Attiva entrambi gli annunci</button>
+  		<a class="btn btn-primary" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Guarda primo annuncio</a>
+  		<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Guarda secondo annuncio</button>
+ 		<button class="btn btn-primary" type="button" data-toggle="collapse" data-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Guarda entrambi gli annunci</button>
 	</p>
 	<div class="row">
   		<div class="col">
@@ -67,7 +67,18 @@
 
 <div class="jumbotron jumbotron-fluid blue" onmousedown="drag(event)">
 	<div class="container">
-		<span id="annunci">L'uso di questo sito è principalmente per contigentare l'ingresso della cappella alle persone che desiderano partecipare alla riunione sacramentale in chiesa. Preghiamo dunque i fratelli di essere precisi e corretti nell inserimento del nominativo che deve essere fatto entro il sabato precedente alla riunione<br> Grazie Mille!</span>
+		<span id="annunci">L’accesso ai locali della Chiesa dovrà essere contingentato e rispettare quanto richiesto dalle
+							normative per i luoghi pubblici in emergenza Covid.<br> Questo significa che:
+							<ul>
+								<li>In chiesa potranno accedere un massimo di 35 persone.</li>
+								<li>Per poter entrare bisogna avere mascherina e guanti.</li>
+								<li>All’ingresso verrà misurata la temperatura.</li>
+								<li>All’interno della Chiesa non si potrà fare assembramenti e si dovrà mantenere le distanze.</li>
+								<li>In cappella le sedie saranno distanziate. le persone dello stesso gruppo famigliare potranno stare vicine.</li>
+							</ul>
+							
+							Vi preghiamo di arrivare in Chiesa con almeno 10 minuti di anticipo, in modo da avere il tempo di
+							gestire l’accoglienza ed iniziare in orario la riunione. ☻</span>
 	</div>
 </div>
 
