@@ -11,3 +11,4 @@
 {"famiglia":"Bennardello Giuseppe ","quantita":1,"daCasa":"In chiesa"}
 {"famiglia":"Incontri Fiorenza ","quantita":1,"daCasa":"In chiesa"}
 {"famiglia":"Avils","quantita":2,"daCasa":"In chiesa"}
+{"famiglia":"Boer Adele","quantita":1,"daCasa":"In chiesa"}
