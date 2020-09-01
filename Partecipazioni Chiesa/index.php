@@ -71,7 +71,7 @@
 							normative per i luoghi pubblici in emergenza Covid.<br> Questo significa che:
 							<ul>
 								<li>In chiesa potranno accedere un massimo di 35 persone.</li>
-								<li>Per poter entrare bisogna avere mascherina e guanti.</li>
+								<li>Per poter entrare bisogna avere la mascherina</li>
 								<li>All’ingresso verrà misurata la temperatura.</li>
 								<li>All’interno della Chiesa non si potrà fare assembramenti e si dovrà mantenere le distanze.</li>
 								<li>In cappella le sedie saranno distanziate. le persone dello stesso gruppo famigliare potranno stare vicine.</li>
