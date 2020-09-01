@@ -8,3 +8,4 @@
 {"famiglia":"Jason","quantita":2,"daCasa":"In chiesa"}
 
 {"famiglia":"Fossati","quantita":2,"daCasa":"In chiesa"}
+{"famiglia":"Bennardello Giuseppe ","quantita":1,"daCasa":"In chiesa"}
