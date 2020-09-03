@@ -13,3 +13,5 @@
 {"famiglia":"Dallari","quantita":5,"daCasa":"In chiesa"}
 {"famiglia":"Sara Mondelli","quantita":4,"daCasa":"In chiesa"}
 {"famiglia":"Rodriguez Loayza","quantita":1,"daCasa":"In chiesa"}
+
+{"famiglia":"Tony e Renato Nicotra","quantita":2,"daCasa":"Da casa"}
