@@ -19,3 +19,4 @@
 {"famiglia":"Paolino","quantita":5,"daCasa":"In chiesa"}
 {"famiglia":"SpiritoSanto","quantita":1,"daCasa":"Da casa"}
 {"famiglia":"Felix","quantita":2,"daCasa":"Da casa"}
+{"famiglia":"Chango Carcelen","quantita":5,"daCasa":"In chiesa"}
