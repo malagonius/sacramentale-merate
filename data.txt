@@ -15,3 +15,4 @@
 {"famiglia":"Rodriguez Loayza","quantita":1,"daCasa":"In chiesa"}
 
 {"famiglia":"Tony e Renato Nicotra","quantita":2,"daCasa":"Da casa"}
+{"famiglia":"Lo Bue Cecilia","quantita":1,"daCasa":"Da casa"}
