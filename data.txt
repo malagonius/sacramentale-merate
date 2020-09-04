@@ -16,3 +16,4 @@
 
 {"famiglia":"Tony e Renato Nicotra","quantita":2,"daCasa":"Da casa"}
 {"famiglia":"Lo Bue Cecilia","quantita":1,"daCasa":"Da casa"}
+{"famiglia":"Paolino","quantita":5,"daCasa":"In chiesa"}
