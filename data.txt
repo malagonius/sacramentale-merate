@@ -2,7 +2,8 @@
 {"famiglia":"Davide Gessati","quantita":1,"daCasa":"In chiesa"}
 {"famiglia":"Michela Gessati","quantita":5,"daCasa":"Da casa"}
 {"famiglia":"Daniele Nicotra","quantita":5,"daCasa":"Da casa"}
-{"famiglia":"Jason","quantita":2,"daCasa":"In chiesa"}
+{"famiglia":"Jason1","quantita":1,"daCasa":"Da casa"}
+{"famiglia":"Jason2","quantita":1,"daCasa":"In chiesa"}
 
 {"famiglia":"Fossati","quantita":2,"daCasa":"In chiesa"}
 {"famiglia":"Bennardello Giuseppe ","quantita":1,"daCasa":"In chiesa"}
