@@ -21,3 +21,4 @@
 {"famiglia":"Felix","quantita":2,"daCasa":"Da casa"}
 {"famiglia":"Chango Carcelen","quantita":5,"daCasa":"In chiesa"}
 {"famiglia":"Nicotra Davide","quantita":1,"daCasa":"In chiesa"}
+{"famiglia":"Boer","quantita":1,"daCasa":"In chiesa"}
