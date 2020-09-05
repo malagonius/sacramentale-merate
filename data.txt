@@ -18,8 +18,6 @@
 {"famiglia":"Tony e Renato Nicotra","quantita":2,"daCasa":"Da casa"}
 {"famiglia":"Lo Bue Cecilia","quantita":1,"daCasa":"Da casa"}
 {"famiglia":"Paolino","quantita":5,"daCasa":"In chiesa"}
-{"famiglia":"SpiritoSanto","quantita":1,"daCasa":"Da casa"}
-{"famiglia":"Felix","quantita":2,"daCasa":"Da casa"}
 {"famiglia":"Chango Carcelen","quantita":5,"daCasa":"In chiesa"}
 {"famiglia":"Nicotra Davide","quantita":1,"daCasa":"In chiesa"}
 {"famiglia":"Boer","quantita":1,"daCasa":"In chiesa"}
