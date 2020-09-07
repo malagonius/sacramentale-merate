@@ -19,7 +19,7 @@
 		  		<img src="up.png" id="down" onclick="increaseNumber(false)">
 		  	</div>
 		  	<div>
-		  		<label for="daCasa">inChiesa</label>
+		  		<label for="daCasa">da Casa</label>
 		  		<label class="switch" onclick="changeLabel()">
 	  				<input id="daCasa" name="daCasa"type="checkbox">
 	 				<span class="slider round"></span>
@@ -29,7 +29,7 @@
 
 		</div>
 		<p>
-		<div onclick="book()" href="#" id="prenota" class="btn btn-primary"> Prenota da Casa</div>
+		<div onclick="book()" href="#" id="prenota" class="btn btn-primary"> Prenota posto in Chiesa</div>
 	</div>
 
 	<div id="availability" class="availabilty" >
