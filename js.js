@@ -53,7 +53,7 @@ increaseNumber = function(isUp){
 }
 
 changeLabel = function(){
-	document.getElementById("prenota").innerHTML = !document.getElementById("daCasa").checked ? "Prenota da Casa " : "Prenota posto in Chiesa";
+	document.getElementById("prenota").innerHTML = document.getElementById("daCasa").checked ? "Prenota da Casa " : "Prenota posto in Chiesa";
 }
 book = function(){
 	var nome = document.getElementById("name");
