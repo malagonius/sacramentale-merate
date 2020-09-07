@@ -2,8 +2,3 @@
 
 {"famiglia":"Dallari","quantita":5,"daCasa":"In chiesa"}
 {"famiglia":"Nicotra Renato ","quantita":1,"daCasa":"In chiesa"}
-
-{"famiglia":"Mattia","quantita":1,"daCasa":"Da casa"}
-{"famiglia":"Mattial","quantita":1,"daCasa":"Da casa"}
-{"famiglia":"sacramentale-merate","quantita":1,"daCasa":"Da casa"}
-{"famiglia":"Mattiaq","quantita":1,"daCasa":"In chiesa"}
