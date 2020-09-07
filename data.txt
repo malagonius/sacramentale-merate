@@ -8,3 +8,4 @@
 {"famiglia":"Dallari, Emmanuele","quantita":1,"daCasa":"In chiesa"}
 {"famiglia":"Gessati Davide","quantita":6,"daCasa":"In chiesa"}
 {"famiglia":"MattiaF","quantita":1,"daCasa":"Da casa"}
+{"famiglia":"Mamma","quantita":6,"daCasa":"In chiesa"}
