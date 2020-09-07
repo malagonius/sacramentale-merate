@@ -8,3 +8,4 @@
 {"famiglia":"Gessati Davide","quantita":6,"daCasa":"In chiesa"}
 
 {"famiglia":"Mattia","quantita":2,"daCasa":"Da casa"}
+{"famiglia":"Fabio","quantita":1,"daCasa":"Da casa"}
