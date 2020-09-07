@@ -43,28 +43,30 @@ increaseNumber = function(isUp){
 	}else{
 		if(parseInt(quantity.value))
 		{
-			quantity.value= parseInt(quantity.value)-1;
+			quantity.value = parseInt(quantity.value)-1;
 			if(quantity.value==0) quantity.value=1;
 		}
 		else{
-			quantity.value= 1
+			quantity.value = 1
 		}
 	}
 }
 
+changeLabel = function(){
+	document.getElementById("prenota").innerHTML = !document.getElementById("daCasa").checked ? "Prenota da Casa " : "Prenota posto in Chiesa";
+}
 book = function(){
 	var nome = document.getElementById("name");
-	var fromHome = document.getElementById("home");
+	var fromHome = document.getElementById("daCasa");
 	var quantita = parseInt(quantity.value);
 	var pDaCasa = document.getElementById("pDaCasa");
 
 	if(validInputs(nome.value,quantita)){
 		var daCasa = fromHome.checked ? "Da casa" : "In chiesa";
 		var json = JSON.stringify({'famiglia': nome.value, 'quantita': quantita, 'daCasa':daCasa})
-		
+
 		var uploadURL ="https://api.github.com/repos/malagonius/sacramentale-merate/contents/data.txt";
 		var newData = atob(loadedData.content)+"\n"+json;
-
 		$.ajax({
 		 	type: "PUT",
 		 	url: uploadURL,

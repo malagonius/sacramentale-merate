@@ -12,21 +12,24 @@
 	<h5>Riunione Sacramentale del <span id="giornoSacramentale"></span></h5>
 	<div> 
 		<div class="input_container">
-			<label for="name">Famiglia<input type="text" id="name" name="name"></label>
+			<label for="name">Famiglia</label><input type="text" id="name" name="name">
 		  	<div>
-		  		<label for="quantity">Numero<input type="number" id="quantity" name="quantity" min="1"></label>
+		  		<label for="quantity">Numero</label><input type="number" id="quantity" name="quantity" min="1">
 		  		<img src="up.png" id="up" onclick="increaseNumber(true)">
 		  		<img src="up.png" id="down" onclick="increaseNumber(false)">
 		  	</div>
 		  	<div>
-		  		<label for="home">Da casa </label><input type="radio" id="home" name="home">
-		 	</div>
-		 	<div>
-		  		<label for="chiesa">In Chiesa </label><input type="radio" id="chiesa" name="home">
-		  	</div>
+		  		<label for="daCasa">inChiesa</label>
+		  		<label class="switch" onclick="changeLabel()">
+	  				<input id="daCasa" name="daCasa"type="checkbox">
+	 				<span class="slider round"></span>
+	 			</label>
+ 			</div>
+		  	
+
 		</div>
 		<p>
-		<div onclick="book()" href="#" class="btn btn-primary"> Prenota </div>
+		<div onclick="book()" href="#" id="prenota" class="btn btn-primary"> Prenota da Casa</div>
 	</div>
 
 	<div id="availability" class="availabilty" >
@@ -71,7 +74,7 @@
 							normative per i luoghi pubblici in emergenza Covid.<br> Questo significa che:
 							<ul>
 								<li>In chiesa potranno accedere un massimo di 35 persone.</li>
-								<li>Per poter entrare bisogna avere mascherina.</li>
+								<li>Per poter entrare bisogna avere mascherina e guanti.</li>
 								<li>All’ingresso verrà misurata la temperatura.</li>
 								<li>All’interno della Chiesa non si potrà fare assembramenti e si dovrà mantenere le distanze.</li>
 								<li>In cappella le sedie saranno distanziate. le persone dello stesso gruppo famigliare potranno stare vicine.</li>
