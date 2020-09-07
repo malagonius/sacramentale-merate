@@ -2,7 +2,3 @@
 
 {"famiglia":"Dallari","quantita":5,"daCasa":"In chiesa"}
 {"famiglia":"Nicotra Renato ","quantita":1,"daCasa":"In chiesa"}
-
-{"famiglia":"Mattia","quantita":1,"daCasa":"Da casa"}
-{"famiglia":"MattiaN","quantita":1,"daCasa":"Da casa"}
-{"famiglia":"MattiaP","quantita":1,"daCasa":"In chiesa"}
