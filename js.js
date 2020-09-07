@@ -19,7 +19,7 @@ window.onload = function(e) {
 	var myDateString = ("0"+giorno.getDate()).slice(-2)+"/"+("0"+(giorno.getMonth()+1)).slice(-2);
 	document.getElementById("giornoSacramentale").innerHTML=myDateString;
 
-	loadData();
+	loadData(false);
 }
 
 Date.prototype.addDays = function(days) {
@@ -86,8 +86,8 @@ book = function(){
 		})
 		  .done(function( msg ) {
 		    console.log( "Data Saved: " + json );
-		    setTimeout(function(){ document.getElementById("book_success").classList.remove("fade"); }, 1000);
-          	setTimeout(function(){ loadData(); }, 1000);
+		    document.getElementById("book_success").classList.remove("fade");
+          	loadData(true);
           	setTimeout(function(){ document.getElementById("book_success").classList.add("fade"); }, 4000);
 		  });
 
@@ -133,7 +133,7 @@ drop = function(event){
 		    success: function (obj, textstatus) {
 		                  if( !('error' in obj) ) {
 		                      yourVariable = obj.result;
-		                      loadData();
+		                      loadData(true);
 		                  }
 		                  else {
 		                      console.log(obj.error);
@@ -161,7 +161,7 @@ drop = function(event){
 			                  if( !('error' in obj) ) {
 			                      yourVariable = obj.result;
 			                      document.getElementById("book_success").classList.remove("fade");
-			                      loadData();
+			                      loadData(true);
 			                      setTimeout(function(){ document.getElementById("book_success").classList.add("fade"); }, 3000);
 			                      
 			                  }
@@ -176,8 +176,8 @@ drop = function(event){
 	dragEvent = "";
 }
 
-loadData = function(){
-	window.location.reload(true); //distruggi la cache yeah
+loadData = function(forceReload){
+	
 	var json = "{}";
 	jQuery.ajax({
     type: "GET",
@@ -220,7 +220,9 @@ loadData = function(){
       	else {
           		console.log(obj.error);
   			}
+  			if(forceReload) window.location.reload(true); //distruggi la cache yeah
         }
+
 	});
 
 	
