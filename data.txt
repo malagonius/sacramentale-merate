@@ -5,3 +5,4 @@
 
 {"famiglia":"Mattia","quantita":1,"daCasa":"Da casa"}
 {"famiglia":"Muce","quantita":2,"daCasa":"In chiesa"}
+{"famiglia":"Dallari, Emmanuele","quantita":1,"daCasa":"In chiesa"}
