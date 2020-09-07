@@ -184,7 +184,11 @@ loadData = function(){
     //url: CORS+'https://raw.github.com/malagonius/sacramentale-merate/master/data.txt',
     url: "https://api.github.com/repos/malagonius/sacramentale-merate/contents/data.txt",
     dataType: 'json',
-
+    headers: {
+		  		    "Cache-Control": "no-cache, no-store, must-revalidate",
+				    "Pragma": "no-cache",
+				    "Expires": "0"
+				},
     success: function (obj, textstatus) {
       	if( !('error' in obj) ) {
 	      	loadedData=obj;
