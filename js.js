@@ -158,7 +158,10 @@ drop = function(event){
 			    success: function (obj, textstatus) {
 			                  if( !('error' in obj) ) {
 			                      yourVariable = obj.result;
-			                      loadData();
+			                      setTimeout(function(){ document.getElementById("book_success").classList.remove("fade"); }, 1000);
+			                      setTimeout(function(){ loadData(); }, 1000);
+			                      setTimeout(function(){ document.getElementById("book_success").classList.add("fade"); }, 1000);
+			                      
 			                  }
 			                  else {
 			                      console.log(obj.error);
