@@ -1,6 +1,6 @@
 
 
-{"famiglia":"Dallari","quantita":5,"daCasa":"In chiesa"}
+{"famiglia":"Dallari","quantita":4,"daCasa":"In chiesa"}
 {"famiglia":"Nicotra Renato ","quantita":1,"daCasa":"In chiesa"}
 
 {"famiglia":"Muce","quantita":2,"daCasa":"In chiesa"}
