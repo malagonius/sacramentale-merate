@@ -11,3 +11,4 @@
 {"famiglia":"Jessica","quantita":1,"daCasa":"Da casa"}
 {"famiglia":"Jason","quantita":1,"daCasa":"In chiesa"}
 {"famiglia":"Pavone","quantita":2,"daCasa":"Da casa"}
+{"famiglia":"Nicotra Daniele","quantita":5,"daCasa":"Da casa"}
