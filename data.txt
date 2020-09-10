@@ -14,3 +14,4 @@
 {"famiglia":"Nicotra Daniele","quantita":5,"daCasa":"Da casa"}
 {"famiglia":"Fossati ","quantita":2,"daCasa":"In chiesa"}
 {"famiglia":"Brigatti","quantita":2,"daCasa":"In chiesa"}
+{"famiglia":"Lo Bue","quantita":2,"daCasa":"In chiesa"}
