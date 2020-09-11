@@ -19,3 +19,4 @@
 {"famiglia":"Avila","quantita":2,"daCasa":"In chiesa"}
 
 {"famiglia":"Gessati Alfredo","quantita":2,"daCasa":"In chiesa"}
+{"famiglia":"Boer, Sara","quantita":4,"daCasa":"In chiesa"}
