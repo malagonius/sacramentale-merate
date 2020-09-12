@@ -24,3 +24,4 @@
 {"famiglia":"Sandro Cobelli","quantita":1,"daCasa":"In chiesa"}
 
 {"famiglia":"Chango carcelen ","quantita":3,"daCasa":"In chiesa"}
+{"famiglia":"Bennardello","quantita":1,"daCasa":"In chiesa"}
