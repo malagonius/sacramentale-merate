@@ -27,3 +27,4 @@
 {"famiglia":"Bennardello","quantita":1,"daCasa":"In chiesa"}
 {"famiglia":"Antonina Nicotra ","quantita":1,"daCasa":"In chiesa"}
 {"famiglia":"Pilay Alcivar","quantita":2,"daCasa":"Da casa"}
+{"famiglia":"Alcivar pilay","quantita":2,"daCasa":"In chiesa"}
