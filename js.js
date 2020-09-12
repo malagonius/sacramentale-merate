@@ -242,7 +242,7 @@ validInputs = function(nome,quantita){
 		return false;
 	}
 	if(isNaN(quantita) || quantita==null){
-		alerT("perfavore indicare quanti sarete");
+		alert"perfavore indicare quanti sarete");
 		return false;
 	}
 	if(parseInt(curr.innerHTML)+quantita > nMassimoPrenotazioni){
