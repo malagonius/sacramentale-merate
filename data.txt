@@ -22,3 +22,5 @@
 {"famiglia":"Boer, Sara","quantita":4,"daCasa":"In chiesa"}
 
 {"famiglia":"Sandro Cobelli","quantita":1,"daCasa":"In chiesa"}
+
+{"famiglia":"Chango carcelen ","quantita":3,"daCasa":"In chiesa"}
