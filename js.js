@@ -8,6 +8,7 @@ var dragEvent = "";
 var accessToken = "?access_token=2fda00e0b47ce4c53fb3c4b69b180f06187075b0";
 var CORS = "https://cors-anywhere.herokuapp.com/";
 var loadedData="\n";
+var timesClicked = 0;
 
 
 window.onload = function(e) {
@@ -121,26 +122,11 @@ drag = function(event){
 }
 
 drop = function(event){
-	if(event.target.id=="logo"){
-		if(dragEvent.id=="availability"){
-			var json = "{}";
-			jQuery.ajax({
-		    type: "POST",
-		    url: 'book.php',
-		    dataType: 'json',
-		    data: {functionname: 'delete-all', arguments: json},
-
-		    success: function (obj, textstatus) {
-		                  if( !('error' in obj) ) {
-		                      yourVariable = obj.result;
-		                      loadData(true);
-		                  }
-		                  else {
-		                      console.log(obj.error);
-		                  }
-		            }
-			});
-			return;
+	if(event.target.it="logo"){
+		timesClicked += 1;
+		if(timesClicked==10){
+			deleteRecords();
+			timesClicked=0;
 		}
 	}
 	if(event.target.id=="annunci-container"){
