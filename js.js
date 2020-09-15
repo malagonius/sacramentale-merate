@@ -243,7 +243,7 @@ deleteRecords = function(){
 	})
 	  .done(function( msg ) {
 	    console.log( "Data Cleared! ");
-	    loadData();
+	    loadData(true);
 	  });
 	
 }
