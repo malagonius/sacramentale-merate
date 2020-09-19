@@ -15,3 +15,4 @@
 {"famiglia":"Avila","quantita":2,"daCasa":"In chiesa"}
 {"famiglia":"Boer, Sara","quantita":4,"daCasa":"In chiesa"}
 {"famiglia":"Nicotra Renato Tony ","quantita":2,"daCasa":"In chiesa"}
+{"famiglia":"Zicari Michela","quantita":5,"daCasa":"In chiesa"}
