@@ -2,3 +2,4 @@
 
 
 {"famiglia":"Bennardello Giuseppe ","quantita":1,"daCasa":"In chiesa"}
+{"famiglia":"Dallari Emmanuele ","quantita":1,"daCasa":"In chiesa"}
