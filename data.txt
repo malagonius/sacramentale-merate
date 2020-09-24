@@ -4,3 +4,4 @@
 {"famiglia":"Bennardello Giuseppe ","quantita":1,"daCasa":"In chiesa"}
 {"famiglia":"Dallari Emmanuele ","quantita":1,"daCasa":"In chiesa"}
 {"famiglia":"Davide Gessati","quantita":1,"daCasa":"In chiesa"}
+{"famiglia":"Brigatti","quantita":2,"daCasa":"In chiesa"}
