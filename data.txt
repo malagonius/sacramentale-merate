@@ -2,3 +2,4 @@
 
 {"famiglia":"Paolino","quantita":6,"daCasa":"Da casa"}
 {"famiglia":"Davide Gessati","quantita":1,"daCasa":"In chiesa"}
+{"famiglia":"Alfredo Gessati","quantita":2,"daCasa":"In chiesa"}
