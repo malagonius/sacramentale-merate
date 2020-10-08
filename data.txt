@@ -11,3 +11,4 @@
 {"famiglia":"A","quantita":2,"daCasa":"In chiesa"}
 {"famiglia":"Estanga ","quantita":2,"daCasa":"In chiesa"}
 {"famiglia":"Jason","quantita":1,"daCasa":"In chiesa"}
+{"famiglia":"Jessica","quantita":1,"daCasa":"Da casa"}
