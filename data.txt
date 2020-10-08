@@ -10,3 +10,4 @@
 {"famiglia":"Pilay Alcivar","quantita":2,"daCasa":"In chiesa"}
 {"famiglia":"A","quantita":2,"daCasa":"In chiesa"}
 {"famiglia":"Estanga ","quantita":2,"daCasa":"In chiesa"}
+{"famiglia":"Jason","quantita":1,"daCasa":"In chiesa"}
