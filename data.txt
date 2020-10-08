@@ -4,3 +4,4 @@
 {"famiglia":"Davide Gessati","quantita":1,"daCasa":"In chiesa"}
 {"famiglia":"Alfredo Gessati","quantita":2,"daCasa":"In chiesa"}
 {"famiglia":"Gessati nicole","quantita":5,"daCasa":"In chiesa"}
+{"famiglia":"Dallari E.","quantita":1,"daCasa":"In chiesa"}
