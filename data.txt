@@ -9,3 +9,4 @@
 {"famiglia":"Fossati","quantita":2,"daCasa":"In chiesa"}
 {"famiglia":"Pilay Alcivar","quantita":2,"daCasa":"In chiesa"}
 {"famiglia":"A","quantita":2,"daCasa":"In chiesa"}
+{"famiglia":"Estanga ","quantita":2,"daCasa":"In chiesa"}
