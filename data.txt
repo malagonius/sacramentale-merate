@@ -14,3 +14,4 @@
 {"famiglia":"Jessica","quantita":1,"daCasa":"Da casa"}
 {"famiglia":"Pavone","quantita":2,"daCasa":"Da casa"}
 {"famiglia":"Renato e Tony","quantita":2,"daCasa":"In chiesa"}
+{"famiglia":"Chango Carcelen ","quantita":4,"daCasa":"In chiesa"}
