@@ -16,3 +16,4 @@
 {"famiglia":"Renato e Tony","quantita":2,"daCasa":"In chiesa"}
 {"famiglia":"Chango Carcelen ","quantita":4,"daCasa":"In chiesa"}
 {"famiglia":"Boer Sara","quantita":4,"daCasa":"In chiesa"}
+{"famiglia":"Bennardello","quantita":1,"daCasa":"In chiesa"}
