@@ -1,21 +1,2 @@
 
 
-{"famiglia":"Paolino","quantita":6,"daCasa":"Da casa"}
-{"famiglia":"Davide Gessati","quantita":1,"daCasa":"In chiesa"}
-{"famiglia":"Alfredo Gessati","quantita":2,"daCasa":"In chiesa"}
-{"famiglia":"Gessati nicole","quantita":5,"daCasa":"In chiesa"}
-{"famiglia":"Dallari E.","quantita":1,"daCasa":"In chiesa"}
-{"famiglia":"Dallari","quantita":5,"daCasa":"In chiesa"}
-{"famiglia":"Fossati","quantita":2,"daCasa":"In chiesa"}
-{"famiglia":"Pilay Alcivar","quantita":2,"daCasa":"In chiesa"}
-{"famiglia":"A","quantita":2,"daCasa":"In chiesa"}
-{"famiglia":"Estanga ","quantita":2,"daCasa":"In chiesa"}
-{"famiglia":"Jason","quantita":1,"daCasa":"In chiesa"}
-{"famiglia":"Jessica","quantita":1,"daCasa":"Da casa"}
-{"famiglia":"Pavone","quantita":2,"daCasa":"Da casa"}
-{"famiglia":"Renato e Tony","quantita":2,"daCasa":"In chiesa"}
-{"famiglia":"Chango Carcelen ","quantita":4,"daCasa":"In chiesa"}
-{"famiglia":"Boer Sara","quantita":4,"daCasa":"In chiesa"}
-{"famiglia":"Bennardello","quantita":1,"daCasa":"In chiesa"}
-{"famiglia":"Boer Adele","quantita":1,"daCasa":"Da casa"}
-{"famiglia":"Gessati","quantita":1,"daCasa":"In chiesa"}
