@@ -4,3 +4,4 @@
 {"famiglia":"Davide Gessati","quantita":6,"daCasa":"In chiesa"}
 {"famiglia":"Pilay Alcivar","quantita":2,"daCasa":"In chiesa"}
 {"famiglia":"Chango Carcelen ","quantita":3,"daCasa":"In chiesa"}
+{"famiglia":"Muce","quantita":2,"daCasa":"In chiesa"}
