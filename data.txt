@@ -14,3 +14,5 @@
 {"famiglia":"Boer, Sara","quantita":4,"daCasa":"In chiesa"}
 {"famiglia":"Bennardello","quantita":1,"daCasa":"In chiesa"}
 {"famiglia":"Fossati","quantita":2,"daCasa":"In chiesa"}
+
+{"famiglia":"Mattia Nicotra","quantita":1,"daCasa":"In chiesa"}
