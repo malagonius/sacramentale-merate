@@ -19,3 +19,4 @@
 {"famiglia":"Lo Bue","quantita":2,"daCasa":"In chiesa"}
 {"famiglia":"Jessica","quantita":1,"daCasa":"Da casa"}
 {"famiglia":"Paolino","quantita":1,"daCasa":"In chiesa"}
+{"famiglia":"Elia","quantita":1,"daCasa":"In chiesa"}
