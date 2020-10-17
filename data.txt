@@ -7,3 +7,4 @@
 {"famiglia":"Muce","quantita":2,"daCasa":"In chiesa"}
 {"famiglia":"Pavone","quantita":2,"daCasa":"Da casa"}
 {"famiglia":"Dallari Emmanuele ","quantita":1,"daCasa":"In chiesa"}
+{"famiglia":"Dallari Mariangela ","quantita":1,"daCasa":"In chiesa"}
