@@ -11,3 +11,4 @@
 {"famiglia":"Dallari Valerio","quantita":4,"daCasa":"In chiesa"}
 {"famiglia":"Renato tony","quantita":2,"daCasa":"In chiesa"}
 {"famiglia":"Dallari","quantita":4,"daCasa":"In chiesa"}
+{"famiglia":"Adele boer","quantita":1,"daCasa":"In chiesa"}
