@@ -17,3 +17,4 @@
 
 {"famiglia":"Mattia Nicotra","quantita":1,"daCasa":"In chiesa"}
 {"famiglia":"Lo Bue","quantita":2,"daCasa":"In chiesa"}
+{"famiglia":"Jessica","quantita":1,"daCasa":"Da casa"}
