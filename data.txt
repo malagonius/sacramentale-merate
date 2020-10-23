@@ -7,3 +7,4 @@
 {"famiglia":"Mirian Estanga","quantita":2,"daCasa":"In chiesa"}
 {"famiglia":"Dallari Emmanuele ","quantita":1,"daCasa":"In chiesa"}
 {"famiglia":"Pavone","quantita":2,"daCasa":"Da casa"}
+{"famiglia":"Jason","quantita":2,"daCasa":"In chiesa"}
