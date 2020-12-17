@@ -3,3 +3,6 @@
 {"famiglia":"Kingsley David Iyare","quantita":1,"daCasa":"In chiesa"}
 {"famiglia":"Paolino","quantita":6,"daCasa":"In chiesa"}
 {"famiglia":"Davide Gessati","quantita":6,"daCasa":"In chiesa"}
+{"famiglia":"Dallari Valerio","quantita":2,"daCasa":"In chiesa"}
+{"famiglia":"Adele Boer","quantita":3,"daCasa":"In chiesa"}
+{"famiglia":"Muce","quantita":1,"daCasa":"In chiesa"}
