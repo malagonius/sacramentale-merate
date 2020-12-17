@@ -1,3 +1,4 @@
 
 
 {"famiglia":"Kingsley David Iyare","quantita":1,"daCasa":"In chiesa"}
+{"famiglia":"Paolino","quantita":6,"daCasa":"In chiesa"}
