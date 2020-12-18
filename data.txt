@@ -6,3 +6,5 @@
 {"famiglia":"Dallari Valerio","quantita":2,"daCasa":"In chiesa"}
 {"famiglia":"Adele Boer","quantita":3,"daCasa":"In chiesa"}
 {"famiglia":"Muce","quantita":1,"daCasa":"In chiesa"}
+
+{"famiglia":"Jessica","quantita":1,"daCasa":"Da casa"}
