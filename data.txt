@@ -8,3 +8,4 @@
 {"famiglia":"Muce","quantita":1,"daCasa":"In chiesa"}
 
 {"famiglia":"Jessica","quantita":1,"daCasa":"Da casa"}
+{"famiglia":"Jason","quantita":1,"daCasa":"In chiesa"}
