@@ -9,3 +9,4 @@
 
 {"famiglia":"Jessica","quantita":1,"daCasa":"Da casa"}
 {"famiglia":"Jason","quantita":1,"daCasa":"In chiesa"}
+{"famiglia":"Pilay Alcivar","quantita":3,"daCasa":"In chiesa"}
