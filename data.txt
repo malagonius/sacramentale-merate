@@ -2,3 +2,4 @@
 
 {"famiglia":"Mirian Estanga","quantita":2,"daCasa":"In chiesa"}
 {"famiglia":"Dallari Garitta","quantita":4,"daCasa":"In chiesa"}
+{"famiglia":"Dallari Emmanuele e Mariangela","quantita":2,"daCasa":"In chiesa"}
