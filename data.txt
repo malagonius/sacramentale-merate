@@ -5,3 +5,4 @@
 {"famiglia":"Dallari Emmanuele e Mariangela","quantita":2,"daCasa":"In chiesa"}
 {"famiglia":"Gessati Davide","quantita":6,"daCasa":"In chiesa"}
 {"famiglia":"Lo Bue","quantita":2,"daCasa":"In chiesa"}
+{"famiglia":"Muce","quantita":2,"daCasa":"In chiesa"}
