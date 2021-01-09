@@ -12,3 +12,4 @@
 {"famiglia":"Pavone","quantita":2,"daCasa":"In chiesa"}
 {"famiglia":"Fossati","quantita":2,"daCasa":"Da casa"}
 {"famiglia":"Paolino","quantita":6,"daCasa":"In chiesa"}
+{"famiglia":"Oronzo e caterina","quantita":2,"daCasa":"Da casa"}
