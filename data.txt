@@ -11,3 +11,4 @@
 {"famiglia":"Gessati Alfredo","quantita":2,"daCasa":"In chiesa"}
 {"famiglia":"Pavone","quantita":2,"daCasa":"In chiesa"}
 {"famiglia":"Fossati","quantita":2,"daCasa":"Da casa"}
+{"famiglia":"Paolino","quantita":6,"daCasa":"In chiesa"}
