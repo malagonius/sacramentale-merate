@@ -2,3 +2,4 @@
 
 {"famiglia":"Dallari Emmanuele ","quantita":1,"daCasa":"In chiesa"}
 {"famiglia":"Mirian Estanga","quantita":2,"daCasa":"In chiesa"}
+{"famiglia":"Pilay Alcivar","quantita":2,"daCasa":"In chiesa"}
