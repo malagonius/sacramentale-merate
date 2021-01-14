@@ -6,3 +6,4 @@
 {"famiglia":"Pavone Oronzo","quantita":2,"daCasa":"Da casa"}
 {"famiglia":"Davide Gessati","quantita":6,"daCasa":"In chiesa"}
 {"famiglia":"Famiglia Dallari","quantita":5,"daCasa":"In chiesa"}
+{"famiglia":"Paolino","quantita":6,"daCasa":"In chiesa"}
