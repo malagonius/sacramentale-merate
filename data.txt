@@ -4,3 +4,4 @@
 {"famiglia":"Mirian Estanga","quantita":2,"daCasa":"In chiesa"}
 {"famiglia":"Pilay Alcivar","quantita":2,"daCasa":"In chiesa"}
 {"famiglia":"Pavone Oronzo","quantita":2,"daCasa":"Da casa"}
+{"famiglia":"Davide Gessati","quantita":6,"daCasa":"In chiesa"}
