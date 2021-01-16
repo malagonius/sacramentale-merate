@@ -8,3 +8,4 @@
 {"famiglia":"Famiglia Dallari","quantita":5,"daCasa":"In chiesa"}
 {"famiglia":"Paolino","quantita":6,"daCasa":"In chiesa"}
 {"famiglia":"Muce","quantita":3,"daCasa":"In chiesa"}
+{"famiglia":"Jessica","quantita":1,"daCasa":"Da casa"}
