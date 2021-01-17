@@ -15,3 +15,4 @@
 {"famiglia":"Boer Adele","quantita":1,"daCasa":"Da casa"}
 {"famiglia":"Sara Mondelli","quantita":4,"daCasa":"In chiesa"}
 {"famiglia":"Kingsley Iyare ","quantita":1,"daCasa":"In chiesa"}
+{"famiglia":"Fossati ","quantita":2,"daCasa":"Da casa"}
