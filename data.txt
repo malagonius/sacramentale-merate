@@ -1,3 +1,4 @@
 
 
 {"famiglia":"Dallari Emmanuele ","quantita":2,"daCasa":"In chiesa"}
+{"famiglia":"Davide Gessati","quantita":6,"daCasa":"In chiesa"}
