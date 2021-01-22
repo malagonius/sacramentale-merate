@@ -7,3 +7,4 @@
 {"famiglia":"Pavone Oronzo","quantita":2,"daCasa":"Da casa"}
 {"famiglia":"Dallari Valerio","quantita":4,"daCasa":"In chiesa"}
 {"famiglia":"Muce Brixhilda ","quantita":2,"daCasa":"In chiesa"}
+{"famiglia":"Pilay Alcivar","quantita":2,"daCasa":"In chiesa"}
