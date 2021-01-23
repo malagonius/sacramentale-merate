@@ -9,3 +9,4 @@
 {"famiglia":"Muce Brixhilda ","quantita":2,"daCasa":"In chiesa"}
 {"famiglia":"Pilay Alcivar","quantita":2,"daCasa":"In chiesa"}
 {"famiglia":"Muce","quantita":3,"daCasa":"In chiesa"}
+{"famiglia":"Alfredo Gessati","quantita":2,"daCasa":"In chiesa"}
