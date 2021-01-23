@@ -11,3 +11,4 @@
 {"famiglia":"Muce","quantita":3,"daCasa":"In chiesa"}
 {"famiglia":"Alfredo Gessati","quantita":2,"daCasa":"In chiesa"}
 {"famiglia":"Kingsley  Iyare","quantita":1,"daCasa":"In chiesa"}
+{"famiglia":"Paolino","quantita":6,"daCasa":"In chiesa"}
