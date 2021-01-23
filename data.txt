@@ -1,3 +1,17 @@
 
 
 {"famiglia":"Adele Boer","quantita":1,"daCasa":"Da casa"}
+{"famiglia":"Dallari Emmanuele ","quantita":2,"daCasa":"In chiesa"}
+{"famiglia":"Davide Gessati","quantita":6,"daCasa":"In chiesa"}
+{"famiglia":"Mirian Estanga","quantita":2,"daCasa":"In chiesa"}
+{"famiglia":"Muiruri","quantita":1,"daCasa":"In chiesa"}
+{"famiglia":"Pavone Oronzo","quantita":2,"daCasa":"Da casa"}
+{"famiglia":"Dallari Valerio","quantita":4,"daCasa":"In chiesa"}
+{"famiglia":"Muce Brixhilda ","quantita":2,"daCasa":"In chiesa"}
+{"famiglia":"Pilay Alcivar","quantita":2,"daCasa":"In chiesa"}
+{"famiglia":"Muce","quantita":3,"daCasa":"In chiesa"}
+{"famiglia":"Alfredo Gessati","quantita":2,"daCasa":"In chiesa"}
+{"famiglia":"Kingsley  Iyare","quantita":1,"daCasa":"In chiesa"}
+{"famiglia":"Paolino","quantita":6,"daCasa":"In chiesa"}
+{"famiglia":"Avila","quantita":2,"daCasa":"In chiesa"}
+{"famiglia":"Sara Mondelli","quantita":2,"daCasa":"In chiesa"}
