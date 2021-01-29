@@ -6,3 +6,4 @@
 {"famiglia":"Fossati","quantita":1,"daCasa":"In chiesa"}
 {"famiglia":"Mirian Estanga","quantita":2,"daCasa":"In chiesa"}
 {"famiglia":"Davide Gessati","quantita":6,"daCasa":"In chiesa"}
+{"famiglia":"Lo Bue","quantita":2,"daCasa":"In chiesa"}
