@@ -9,3 +9,4 @@
 {"famiglia":"Lo Bue","quantita":2,"daCasa":"In chiesa"}
 {"famiglia":"Dallari Valerio","quantita":5,"daCasa":"In chiesa"}
 {"famiglia":"Avila ","quantita":2,"daCasa":"In chiesa"}
+{"famiglia":"Adele Boer","quantita":1,"daCasa":"In chiesa"}
