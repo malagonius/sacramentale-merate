@@ -5,3 +5,4 @@
 {"famiglia":"Pavone Oronzo","quantita":2,"daCasa":"Da casa"}
 {"famiglia":"Missionari","quantita":2,"daCasa":"In chiesa"}
 {"famiglia":"Paolino","quantita":6,"daCasa":"In chiesa"}
+{"famiglia":"Nicotra Renato","quantita":2,"daCasa":"In chiesa"}
