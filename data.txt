@@ -7,3 +7,4 @@
 {"famiglia":"Paolino","quantita":6,"daCasa":"In chiesa"}
 {"famiglia":"Nicotra Renato","quantita":2,"daCasa":"In chiesa"}
 {"famiglia":"Michela Gessati","quantita":5,"daCasa":"In chiesa"}
+{"famiglia":"Gessati Alfredo","quantita":2,"daCasa":"In chiesa"}
