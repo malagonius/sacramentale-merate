@@ -8,3 +8,4 @@
 {"famiglia":"Nicotra Renato","quantita":2,"daCasa":"In chiesa"}
 {"famiglia":"Michela Gessati","quantita":5,"daCasa":"In chiesa"}
 {"famiglia":"Gessati Alfredo","quantita":2,"daCasa":"In chiesa"}
+{"famiglia":"Lo Bue","quantita":2,"daCasa":"In chiesa"}
