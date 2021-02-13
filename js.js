@@ -125,7 +125,7 @@ drop = function(event){
 	if(event.target.it="logo"){
 		timesClicked += 1;
 		if(timesClicked==10){
-			deleteRecords();
+			
 			timesClicked=0;
 		}
 	}
