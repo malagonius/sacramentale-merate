@@ -6,3 +6,4 @@
 {"famiglia":"Dallari Valerio ","quantita":4,"daCasa":"In chiesa"}
 {"famiglia":"Emmanuele Dallari","quantita":1,"daCasa":"In chiesa"}
 {"famiglia":"Michela Gessati","quantita":5,"daCasa":"In chiesa"}
+{"famiglia":"Mirian Estanga","quantita":2,"daCasa":"In chiesa"}
