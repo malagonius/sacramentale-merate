@@ -11,3 +11,4 @@
 {"famiglia":"Pilay Alcivar","quantita":2,"daCasa":"In chiesa"}
 
 {"famiglia":"Nicotra davide","quantita":3,"daCasa":"In chiesa"}
+{"famiglia":"Muce","quantita":3,"daCasa":"In chiesa"}
