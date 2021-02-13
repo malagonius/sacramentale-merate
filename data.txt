@@ -9,3 +9,5 @@
 {"famiglia":"Pavone Oronzo","quantita":2,"daCasa":"Da casa"}
 {"famiglia":"Nicotra ","quantita":3,"daCasa":"In chiesa"}
 {"famiglia":"Pilay Alcivar","quantita":2,"daCasa":"In chiesa"}
+
+{"famiglia":"Nicotra davide","quantita":3,"daCasa":"In chiesa"}
