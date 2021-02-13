@@ -11,4 +11,3 @@
 {"famiglia":"PAVONE ORONZO ","quantita":2,"daCasa":"Da casa"}
 {"famiglia":"Nicotra ","quantita":2,"daCasa":"In chiesa"}
 {"famiglia":"Pilay Alcivar","quantita":2,"daCasa":"In chiesa"}
-{"famiglia":"Alcivar Pilay","quantita":2,"daCasa":"In chiesa"}
