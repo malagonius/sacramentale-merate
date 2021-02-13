@@ -9,3 +9,4 @@
 {"famiglia":"Mirian Estanga","quantita":2,"daCasa":"In chiesa"}
 {"famiglia":"Pavone Oronzo","quantita":2,"daCasa":"Da casa"}
 {"famiglia":"PAVONE ORONZO ","quantita":2,"daCasa":"Da casa"}
+{"famiglia":"Nicotra ","quantita":2,"daCasa":"In chiesa"}
