@@ -12,3 +12,4 @@
 {"famiglia":"NICOTRA renato","quantita":2,"daCasa":"In chiesa"}
 {"famiglia":"Adele Boer","quantita":1,"daCasa":"Da casa"}
 {"famiglia":"Gessati Alfredo","quantita":2,"daCasa":"In chiesa"}
+{"famiglia":"Muce","quantita":1,"daCasa":"In chiesa"}
