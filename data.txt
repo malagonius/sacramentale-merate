@@ -8,3 +8,4 @@
 {"famiglia":"Mirian Estanga","quantita":2,"daCasa":"In chiesa"}
 {"famiglia":"Kingsley Iyare ","quantita":1,"daCasa":"In chiesa"}
 {"famiglia":"Pavone Oronzo","quantita":2,"daCasa":"Da casa"}
+{"famiglia":"Sara Mondelli","quantita":4,"daCasa":"In chiesa"}
