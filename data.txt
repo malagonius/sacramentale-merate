@@ -3,3 +3,4 @@
 
 
 {"famiglia":"Davide Gessati","quantita":6,"daCasa":"In chiesa"}
+{"famiglia":"Dallari V","quantita":4,"daCasa":"In chiesa"}
