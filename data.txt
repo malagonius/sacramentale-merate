@@ -6,3 +6,4 @@
 {"famiglia":"Dallari V","quantita":4,"daCasa":"In chiesa"}
 {"famiglia":"Avila ","quantita":2,"daCasa":"In chiesa"}
 {"famiglia":"Adele Boer","quantita":1,"daCasa":"In chiesa"}
+{"famiglia":"Iyare Kingsley ","quantita":1,"daCasa":"In chiesa"}
