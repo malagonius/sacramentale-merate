@@ -8,3 +8,4 @@
 {"famiglia":"Adele Boer","quantita":1,"daCasa":"In chiesa"}
 {"famiglia":"Iyare Kingsley ","quantita":1,"daCasa":"In chiesa"}
 {"famiglia":"AVILA ","quantita":2,"daCasa":"In chiesa"}
+{"famiglia":"Emmanuele Dallari","quantita":2,"daCasa":"In chiesa"}
