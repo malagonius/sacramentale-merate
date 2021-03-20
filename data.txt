@@ -9,3 +9,4 @@
 {"famiglia":"Iyare Kingsley ","quantita":1,"daCasa":"In chiesa"}
 {"famiglia":"AVILA ","quantita":2,"daCasa":"In chiesa"}
 {"famiglia":"Emmanuele Dallari","quantita":2,"daCasa":"In chiesa"}
+{"famiglia":"Pavone oronzo","quantita":2,"daCasa":"Da casa"}
