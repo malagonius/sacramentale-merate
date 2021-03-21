@@ -15,3 +15,4 @@
 {"famiglia":"Alfredo Gessati","quantita":2,"daCasa":"In chiesa"}
 {"famiglia":"Muce","quantita":1,"daCasa":"In chiesa"}
 {"famiglia":"Mirian Estanga","quantita":2,"daCasa":"In chiesa"}
+{"famiglia":"Nicotra fabio","quantita":1,"daCasa":"In chiesa"}
