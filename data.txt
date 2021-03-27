@@ -6,3 +6,4 @@
 {"famiglia":"Mirian Estanga","quantita":2,"daCasa":"In chiesa"}
 {"famiglia":"Dallari Valerio","quantita":5,"daCasa":"In chiesa"}
 {"famiglia":"Gessati Alfredo","quantita":2,"daCasa":"In chiesa"}
+{"famiglia":"Pavone Oronzo","quantita":2,"daCasa":"Da casa"}
