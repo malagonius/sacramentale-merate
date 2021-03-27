@@ -11,3 +11,4 @@
 {"famiglia":"Emmanuele Dallari","quantita":1,"daCasa":"In chiesa"}
 {"famiglia":"Nicotra Davide","quantita":5,"daCasa":"In chiesa"}
 {"famiglia":"Pilay Alcivar","quantita":2,"daCasa":"In chiesa"}
+{"famiglia":"Paolino","quantita":4,"daCasa":"In chiesa"}
