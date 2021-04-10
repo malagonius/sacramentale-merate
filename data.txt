@@ -5,3 +5,4 @@
 {"famiglia":"Davide Gessati","quantita":6,"daCasa":"In chiesa"}
 {"famiglia":"Emmanuele Dallari ","quantita":1,"daCasa":"In chiesa"}
 {"famiglia":"Kingsley Iyare ","quantita":1,"daCasa":"In chiesa"}
+{"famiglia":"Pavone oronzo","quantita":2,"daCasa":"Da casa"}
