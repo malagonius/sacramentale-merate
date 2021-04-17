@@ -9,3 +9,4 @@
 {"famiglia":"Pavone oronzo","quantita":2,"daCasa":"Da casa"}
 {"famiglia":"Avila","quantita":2,"daCasa":"In chiesa"}
 {"famiglia":"Pilay Alcivar","quantita":2,"daCasa":"In chiesa"}
+{"famiglia":"Dallari","quantita":5,"daCasa":"In chiesa"}
