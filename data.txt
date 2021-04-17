@@ -11,3 +11,4 @@
 {"famiglia":"Pilay Alcivar","quantita":2,"daCasa":"In chiesa"}
 {"famiglia":"Dallari","quantita":5,"daCasa":"In chiesa"}
 {"famiglia":"Adele Boer","quantita":1,"daCasa":"In chiesa"}
+{"famiglia":"Lo bue","quantita":2,"daCasa":"In chiesa"}
