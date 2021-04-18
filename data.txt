@@ -17,3 +17,4 @@
 {"famiglia":"Muce","quantita":1,"daCasa":"In chiesa"}
 {"famiglia":"Nicotra","quantita":1,"daCasa":"Da casa"}
 {"famiglia":"NicotraDanielr","quantita":1,"daCasa":"In chiesa"}
+{"famiglia":"Mirian Estanga","quantita":2,"daCasa":"In chiesa"}
