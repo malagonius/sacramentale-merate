@@ -10,3 +10,4 @@
 {"famiglia":"Fossati ","quantita":2,"daCasa":"In chiesa"}
 {"famiglia":"Pilay Alcivar","quantita":2,"daCasa":"In chiesa"}
 {"famiglia":"Adele Boer","quantita":1,"daCasa":"Da casa"}
+{"famiglia":"Alfredo Gessati","quantita":2,"daCasa":"In chiesa"}
