@@ -7,3 +7,4 @@
 {"famiglia":"Dallari V.","quantita":4,"daCasa":"In chiesa"}
 {"famiglia":"Emmanuele Dallari","quantita":3,"daCasa":"In chiesa"}
 {"famiglia":"Lo Bue","quantita":3,"daCasa":"In chiesa"}
+{"famiglia":"Pilay Alcivar","quantita":2,"daCasa":"In chiesa"}
