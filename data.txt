@@ -13,3 +13,4 @@
 {"famiglia":"Adele Boer","quantita":1,"daCasa":"Da casa"}
 {"famiglia":"Sara Mondelli","quantita":1,"daCasa":"In chiesa"}
 {"famiglia":"Mirian Estanga","quantita":2,"daCasa":"In chiesa"}
+{"famiglia":"Fabio Nicotra","quantita":1,"daCasa":"In chiesa"}
