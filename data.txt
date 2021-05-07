@@ -3,3 +3,4 @@
 
 
 {"famiglia":"Nicotra Davide","quantita":1,"daCasa":"In chiesa"}
+{"famiglia":"Patanè","quantita":3,"daCasa":"In chiesa"}
