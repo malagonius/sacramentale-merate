@@ -14,3 +14,4 @@
 {"famiglia":"Adele Boer","quantita":1,"daCasa":"In chiesa"}
 {"famiglia":"Dallari V.","quantita":5,"daCasa":"In chiesa"}
 {"famiglia":"Muce","quantita":1,"daCasa":"In chiesa"}
+{"famiglia":"Fabio Nicotra","quantita":1,"daCasa":"In chiesa"}
