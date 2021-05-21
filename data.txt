@@ -2,4 +2,5 @@
 
 
 
-{"famiglia":"Patanè","quantita":3,"daCasa":"In chiesa"}
+{"famiglia":"PatanÃ¨","quantita":3,"daCasa":"In chiesa"}
+{"famiglia":"Davide Gessati","quantita":6,"daCasa":"In chiesa"}
