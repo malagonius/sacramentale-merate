@@ -8,3 +8,4 @@
 {"famiglia":"Mirian Estanga","quantita":2,"daCasa":"In chiesa"}
 {"famiglia":"Pavone Oronzo","quantita":2,"daCasa":"Da casa"}
 {"famiglia":"Emmanuele Dallari ","quantita":1,"daCasa":"In chiesa"}
+{"famiglia":"Li Bue","quantita":2,"daCasa":"In chiesa"}
