@@ -10,3 +10,4 @@
 {"famiglia":"Emmanuele Dallari ","quantita":1,"daCasa":"In chiesa"}
 {"famiglia":"Li Bue","quantita":2,"daCasa":"In chiesa"}
 {"famiglia":"Kingsley David Iyare","quantita":1,"daCasa":"In chiesa"}
+{"famiglia":"Rodriguez Loayza","quantita":1,"daCasa":"In chiesa"}
