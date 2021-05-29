@@ -11,3 +11,4 @@
 {"famiglia":"Dallari","quantita":4,"daCasa":"In chiesa"}
 {"famiglia":"Lo pipato Antonina ","quantita":1,"daCasa":"In chiesa"}
 {"famiglia":"Alfredo Gessati","quantita":2,"daCasa":"In chiesa"}
+{"famiglia":"Davide Gessati","quantita":7,"daCasa":"In chiesa"}
