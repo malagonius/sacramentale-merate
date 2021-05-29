@@ -9,3 +9,4 @@
 {"famiglia":"Emmanuele Dallari","quantita":2,"daCasa":"In chiesa"}
 {"famiglia":"Muiruri ","quantita":3,"daCasa":"In chiesa"}
 {"famiglia":"Dallari","quantita":4,"daCasa":"In chiesa"}
+{"famiglia":"Lo pipato Antonina ","quantita":1,"daCasa":"In chiesa"}
