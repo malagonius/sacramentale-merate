@@ -13,3 +13,4 @@
 {"famiglia":"Alfredo Gessati","quantita":2,"daCasa":"In chiesa"}
 {"famiglia":"Davide Gessati","quantita":7,"daCasa":"In chiesa"}
 {"famiglia":"Rodriguez Loayza","quantita":1,"daCasa":"In chiesa"}
+{"famiglia":"paolino","quantita":5,"daCasa":"In chiesa"}
