@@ -9,3 +9,4 @@
 {"famiglia":"Emmanuele Dallari ","quantita":1,"daCasa":"In chiesa"}
 {"famiglia":"Adele Boer","quantita":1,"daCasa":"In chiesa"}
 {"famiglia":"muce","quantita":1,"daCasa":"In chiesa"}
+{"famiglia":"Borrelli","quantita":1,"daCasa":"In chiesa"}
