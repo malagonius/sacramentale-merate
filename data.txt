@@ -12,3 +12,4 @@
 {"famiglia":"Borrelli","quantita":1,"daCasa":"In chiesa"}
 {"famiglia":"Pavone Oronzo","quantita":2,"daCasa":"Da casa"}
 {"famiglia":"DALLARI V.","quantita":4,"daCasa":"In chiesa"}
+{"famiglia":"Paolino","quantita":5,"daCasa":"In chiesa"}
