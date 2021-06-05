@@ -10,3 +10,4 @@
 {"famiglia":"Adele Boer","quantita":1,"daCasa":"In chiesa"}
 {"famiglia":"muce","quantita":1,"daCasa":"In chiesa"}
 {"famiglia":"Borrelli","quantita":1,"daCasa":"In chiesa"}
+{"famiglia":"Pavone Oronzo","quantita":2,"daCasa":"Da casa"}
