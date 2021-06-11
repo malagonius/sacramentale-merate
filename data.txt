@@ -4,3 +4,4 @@
 
 {"famiglia":"Emanuele Brigatti","quantita":1,"daCasa":"In chiesa"}
 {"famiglia":"Pavone oronzo","quantita":2,"daCasa":"Da casa"}
+{"famiglia":"Emmanuele Dallari","quantita":2,"daCasa":"In chiesa"}
