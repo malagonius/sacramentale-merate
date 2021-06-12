@@ -14,3 +14,4 @@
 {"famiglia":"Nicotra Davide","quantita":4,"daCasa":"In chiesa"}
 {"famiglia":"Lo Bue","quantita":1,"daCasa":"In chiesa"}
 {"famiglia":"Mirian Estanga","quantita":2,"daCasa":"In chiesa"}
+{"famiglia":"Fossati","quantita":5,"daCasa":"In chiesa"}
