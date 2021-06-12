@@ -11,3 +11,4 @@
 {"famiglia":"Avila","quantita":2,"daCasa":"In chiesa"}
 {"famiglia":"Dallari V.","quantita":4,"daCasa":"In chiesa"}
 {"famiglia":"Borrelli","quantita":1,"daCasa":"In chiesa"}
+{"famiglia":"Nicotra Davide","quantita":4,"daCasa":"In chiesa"}
