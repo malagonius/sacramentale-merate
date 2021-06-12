@@ -7,3 +7,4 @@
 {"famiglia":"Emmanuele Dallari","quantita":2,"daCasa":"In chiesa"}
 {"famiglia":"Paolino","quantita":6,"daCasa":"In chiesa"}
 {"famiglia":"Davide Gessati","quantita":6,"daCasa":"In chiesa"}
+{"famiglia":"Sara Mondelli","quantita":1,"daCasa":"In chiesa"}
