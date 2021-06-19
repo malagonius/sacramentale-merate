@@ -6,3 +6,4 @@
 {"famiglia":"Dallari V.","quantita":3,"daCasa":"In chiesa"}
 {"famiglia":"Fossati","quantita":5,"daCasa":"In chiesa"}
 {"famiglia":"Lo Bue","quantita":2,"daCasa":"In chiesa"}
+{"famiglia":"Mirian Estanga","quantita":2,"daCasa":"In chiesa"}
