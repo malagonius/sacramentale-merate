@@ -1,12 +1,3 @@
 
 
 
-
-{"famiglia":"Paolino","quantita":6,"daCasa":"In chiesa"}
-{"famiglia":"Dallari V.","quantita":3,"daCasa":"In chiesa"}
-{"famiglia":"Fossati","quantita":5,"daCasa":"In chiesa"}
-{"famiglia":"Lo Bue","quantita":2,"daCasa":"In chiesa"}
-{"famiglia":"Mirian Estanga","quantita":2,"daCasa":"In chiesa"}
-{"famiglia":"Borrelli","quantita":1,"daCasa":"In chiesa"}
-{"famiglia":"Sara Mondelli","quantita":4,"daCasa":"In chiesa"}
-{"famiglia":"Nicotra","quantita":3,"daCasa":"In chiesa"}
