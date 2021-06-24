@@ -1,4 +1,4 @@
-var nMassimoPrenotazioni = 35;
+var nMassimoPrenotazioni = 42;
 var nCorrentePersone = 0;
 var curr = document.getElementById("current");
 var limit = document.getElementById("limit");
