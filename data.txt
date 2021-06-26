@@ -11,3 +11,4 @@
 {"famiglia":"Adele Boer","quantita":1,"daCasa":"In chiesa"}
 {"famiglia":"Nicotra Daniele","quantita":5,"daCasa":"Da casa"}
 {"famiglia":"Patane","quantita":3,"daCasa":"In chiesa"}
+{"famiglia":"Lo Bue","quantita":2,"daCasa":"In chiesa"}
