@@ -10,3 +10,4 @@
 {"famiglia":"Fossati","quantita":4,"daCasa":"In chiesa"}
 {"famiglia":"Adele Boer","quantita":1,"daCasa":"In chiesa"}
 {"famiglia":"Nicotra Daniele","quantita":5,"daCasa":"Da casa"}
+{"famiglia":"Patane","quantita":3,"daCasa":"In chiesa"}
