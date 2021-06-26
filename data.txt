@@ -13,3 +13,4 @@
 {"famiglia":"Patane","quantita":3,"daCasa":"In chiesa"}
 {"famiglia":"Lo Bue","quantita":2,"daCasa":"In chiesa"}
 {"famiglia":"Gessati Alfredo","quantita":2,"daCasa":"In chiesa"}
+{"famiglia":"Paolino","quantita":6,"daCasa":"In chiesa"}
