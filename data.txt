@@ -12,3 +12,4 @@
 {"famiglia":"Nicotra Daniele","quantita":5,"daCasa":"Da casa"}
 {"famiglia":"Patane","quantita":3,"daCasa":"In chiesa"}
 {"famiglia":"Lo Bue","quantita":2,"daCasa":"In chiesa"}
+{"famiglia":"Gessati Alfredo","quantita":2,"daCasa":"In chiesa"}
