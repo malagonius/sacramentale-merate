@@ -16,3 +16,4 @@
 {"famiglia":"Paolino","quantita":6,"daCasa":"In chiesa"}
 {"famiglia":"Muce","quantita":2,"daCasa":"In chiesa"}
 {"famiglia":"Sara Mondelli","quantita":1,"daCasa":"In chiesa"}
+{"famiglia":"Borrelli","quantita":1,"daCasa":"In chiesa"}
