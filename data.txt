@@ -11,4 +11,5 @@
 {"famiglia":"Lo bue","quantita":2,"daCasa":"In chiesa"}
 {"famiglia":"Emmanuele Dallari","quantita":1,"daCasa":"In chiesa"}
 {"famiglia":"Fossati","quantita":2,"daCasa":"In chiesa"}
-{"famiglia":"Cartía","quantita":1,"daCasa":"In chiesa"}
+{"famiglia":"CartÃ­a","quantita":1,"daCasa":"In chiesa"}
+{"famiglia":"Gessati Alfredo","quantita":2,"daCasa":"In chiesa"}
