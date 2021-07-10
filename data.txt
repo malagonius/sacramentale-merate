@@ -11,3 +11,4 @@
 {"famiglia":"Avila ","quantita":2,"daCasa":"In chiesa"}
 {"famiglia":"Fossati","quantita":2,"daCasa":"In chiesa"}
 {"famiglia":"Paolino","quantita":6,"daCasa":"In chiesa"}
+{"famiglia":"Nicotra Renato ","quantita":4,"daCasa":"In chiesa"}
