@@ -7,3 +7,4 @@
 {"famiglia":"Nicotra Daniele","quantita":5,"daCasa":"In chiesa"}
 {"famiglia":"Gessati Davide","quantita":6,"daCasa":"In chiesa"}
 {"famiglia":"Dallari Garitta","quantita":5,"daCasa":"In chiesa"}
+{"famiglia":"Rosa","quantita":5,"daCasa":"In chiesa"}
