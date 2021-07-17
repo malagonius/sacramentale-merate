@@ -1,3 +1,4 @@
 
 
 {"famiglia":"Muiruri","quantita":5,"daCasa":"In chiesa"}
+{"famiglia":"Davide Gessati","quantita":1,"daCasa":"In chiesa"}
