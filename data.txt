@@ -8,3 +8,4 @@
 {"famiglia":"Sara Mondelli","quantita":1,"daCasa":"In chiesa"}
 {"famiglia":"Gessati Alfredo","quantita":2,"daCasa":"In chiesa"}
 {"famiglia":"Boer","quantita":4,"daCasa":"In chiesa"}
+{"famiglia":"Mirian Estanga","quantita":2,"daCasa":"In chiesa"}
