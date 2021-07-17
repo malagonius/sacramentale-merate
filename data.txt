@@ -4,3 +4,4 @@
 {"famiglia":"Davide Gessati","quantita":1,"daCasa":"In chiesa"}
 {"famiglia":"Paolino","quantita":6,"daCasa":"In chiesa"}
 {"famiglia":"Nicotra Renato ","quantita":4,"daCasa":"In chiesa"}
+{"famiglia":"Emmanuele Dallari","quantita":2,"daCasa":"In chiesa"}
