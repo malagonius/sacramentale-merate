@@ -5,3 +5,4 @@
 {"famiglia":"Muiruri","quantita":5,"daCasa":"In chiesa"}
 {"famiglia":"Emanuele Brigatti","quantita":1,"daCasa":"In chiesa"}
 {"famiglia":"Odume","quantita":2,"daCasa":"In chiesa"}
+{"famiglia":"Lo Bue","quantita":2,"daCasa":"In chiesa"}
