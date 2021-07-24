@@ -10,3 +10,4 @@
 {"famiglia":"Boer Adele","quantita":1,"daCasa":"In chiesa"}
 {"famiglia":"Emmanuele Dallari","quantita":2,"daCasa":"In chiesa"}
 {"famiglia":"Daniele Nicotra","quantita":5,"daCasa":"In chiesa"}
+{"famiglia":"Cartía","quantita":1,"daCasa":"In chiesa"}
