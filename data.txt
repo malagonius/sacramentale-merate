@@ -17,3 +17,4 @@
 
 {"famiglia":"Rosa","quantita":5,"daCasa":"In chiesa"}
 {"famiglia":"Fossati","quantita":2,"daCasa":"In chiesa"}
+{"famiglia":"Sara Mondelli","quantita":1,"daCasa":"In chiesa"}
