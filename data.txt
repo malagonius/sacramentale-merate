@@ -12,3 +12,4 @@
 {"famiglia":"Daniele Nicotra","quantita":5,"daCasa":"In chiesa"}
 {"famiglia":"CartÃ­a","quantita":1,"daCasa":"In chiesa"}
 {"famiglia":"Mattia Nicotra","quantita":1,"daCasa":"In chiesa"}
+{"famiglia":"Cartía","quantita":1,"daCasa":"In chiesa"}
