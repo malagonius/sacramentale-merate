@@ -1,3 +1,4 @@
 
 
 {"famiglia":"Muiruri","quantita":5,"daCasa":"In chiesa"}
+{"famiglia":"Emanuele Brigatti","quantita":1,"daCasa":"In chiesa"}
