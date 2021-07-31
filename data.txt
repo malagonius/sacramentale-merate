@@ -7,3 +7,4 @@
 {"famiglia":"Avila","quantita":2,"daCasa":"In chiesa"}
 {"famiglia":"Mirian Estanga","quantita":2,"daCasa":"In chiesa"}
 {"famiglia":"Emmanuele Dallari","quantita":1,"daCasa":"In chiesa"}
+{"famiglia":"Lo bue","quantita":2,"daCasa":"In chiesa"}
