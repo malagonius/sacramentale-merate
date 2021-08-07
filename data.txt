@@ -11,3 +11,4 @@
 
 {"famiglia":"Nicotra","quantita":3,"daCasa":"In chiesa"}
 {"famiglia":"Dallari V. ","quantita":2,"daCasa":"In chiesa"}
+{"famiglia":"Mariangela Dallari","quantita":1,"daCasa":"In chiesa"}
