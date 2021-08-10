@@ -1,2 +1,4 @@
 
 
+
+{"famiglia":"Emanuele Brigatti","quantita":1,"daCasa":"In chiesa"}
