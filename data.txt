@@ -8,3 +8,4 @@
 {"famiglia":"Davide Gessati","quantita":1,"daCasa":"In chiesa"}
 {"famiglia":"Alfredo Gessati","quantita":2,"daCasa":"In chiesa"}
 {"famiglia":"Mirian Estanga","quantita":2,"daCasa":"In chiesa"}
+{"famiglia":"Emmanuele Dallari ","quantita":1,"daCasa":"In chiesa"}
