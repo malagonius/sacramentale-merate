@@ -4,3 +4,4 @@
 {"famiglia":"Emanuele Brigatti","quantita":1,"daCasa":"In chiesa"}
 {"famiglia":"Fossati","quantita":1,"daCasa":"In chiesa"}
 {"famiglia":"Muiruri","quantita":5,"daCasa":"In chiesa"}
+{"famiglia":"Paolino","quantita":6,"daCasa":"In chiesa"}
