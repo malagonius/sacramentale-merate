@@ -10,3 +10,4 @@
 {"famiglia":"Mirian Estanga","quantita":2,"daCasa":"In chiesa"}
 {"famiglia":"Emmanuele Dallari ","quantita":1,"daCasa":"In chiesa"}
 {"famiglia":"Sara Mondelli","quantita":1,"daCasa":"In chiesa"}
+{"famiglia":"Dallari V","quantita":5,"daCasa":"In chiesa"}
