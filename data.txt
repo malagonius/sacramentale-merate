@@ -13,3 +13,4 @@
 {"famiglia":"Dallari V","quantita":5,"daCasa":"In chiesa"}
 {"famiglia":"Patanè","quantita":3,"daCasa":"In chiesa"}
 {"famiglia":"Paolino ","quantita":6,"daCasa":"In chiesa"}
+{"famiglia":"Nicotra Renato","quantita":2,"daCasa":"In chiesa"}
