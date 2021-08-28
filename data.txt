@@ -4,3 +4,4 @@
 {"famiglia":"Mirian Estanga","quantita":2,"daCasa":"In chiesa"}
 {"famiglia":"Emanuele Brigatti","quantita":1,"daCasa":"In chiesa"}
 {"famiglia":"Gessati Davide","quantita":6,"daCasa":"In chiesa"}
+{"famiglia":"Muiruri","quantita":5,"daCasa":"In chiesa"}
