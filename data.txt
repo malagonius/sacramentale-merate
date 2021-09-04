@@ -5,3 +5,4 @@
 {"famiglia":"Nicotra Davide","quantita":5,"daCasa":"In chiesa"}
 {"famiglia":"Nicotra","quantita":5,"daCasa":"In chiesa"}
 {"famiglia":"Alfredo Gessati","quantita":2,"daCasa":"In chiesa"}
+{"famiglia":"Daniele Nicotra","quantita":5,"daCasa":"In chiesa"}
