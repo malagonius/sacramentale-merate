@@ -10,3 +10,4 @@
 {"famiglia":"Nicotra Antonina ","quantita":1,"daCasa":"In chiesa"}
 {"famiglia":"Muiruri","quantita":5,"daCasa":"In chiesa"}
 {"famiglia":"Lo Bue","quantita":2,"daCasa":"In chiesa"}
+{"famiglia":"Emmanuele Dallari","quantita":2,"daCasa":"In chiesa"}
