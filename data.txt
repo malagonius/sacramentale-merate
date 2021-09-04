@@ -3,3 +3,4 @@
 
 {"famiglia":"Avila","quantita":2,"daCasa":"In chiesa"}
 {"famiglia":"Nicotra Davide","quantita":5,"daCasa":"In chiesa"}
+{"famiglia":"Nicotra","quantita":5,"daCasa":"In chiesa"}
