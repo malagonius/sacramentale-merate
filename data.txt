@@ -13,3 +13,4 @@
 {"famiglia":"Emmanuele Dallari","quantita":2,"daCasa":"In chiesa"}
 {"famiglia":"Paolino ","quantita":5,"daCasa":"In chiesa"}
 {"famiglia":"Mirian Estanga","quantita":2,"daCasa":"In chiesa"}
+{"famiglia":"Rodriguez Loayza","quantita":2,"daCasa":"In chiesa"}
