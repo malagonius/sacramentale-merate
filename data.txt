@@ -3,3 +3,4 @@
 
 {"famiglia":"Muiruri","quantita":5,"daCasa":"In chiesa"}
 {"famiglia":"Emmanuele Dallari","quantita":2,"daCasa":"In chiesa"}
+{"famiglia":"Mirian Estanga","quantita":2,"daCasa":"In chiesa"}
