@@ -6,3 +6,4 @@
 {"famiglia":"Mirian Estanga","quantita":2,"daCasa":"In chiesa"}
 {"famiglia":"Gessati Davide","quantita":6,"daCasa":"In chiesa"}
 {"famiglia":"Adele Boer","quantita":1,"daCasa":"In chiesa"}
+{"famiglia":"Daniele Nicotra","quantita":5,"daCasa":"In chiesa"}
