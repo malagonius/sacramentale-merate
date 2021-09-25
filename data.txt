@@ -14,3 +14,4 @@
 {"famiglia":"Paolino","quantita":5,"daCasa":"In chiesa"}
 {"famiglia":"Sara Mondelli","quantita":1,"daCasa":"In chiesa"}
 {"famiglia":"Adele Boer","quantita":1,"daCasa":"In chiesa"}
+{"famiglia":"Nicotra","quantita":6,"daCasa":"In chiesa"}
