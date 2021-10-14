@@ -7,3 +7,4 @@
 {"famiglia":"Muiruri","quantita":5,"daCasa":"In chiesa"}
 {"famiglia":"Emmanuele Dallari","quantita":2,"daCasa":"In chiesa"}
 {"famiglia":"Daniele Nicotra","quantita":8,"daCasa":"In chiesa"}
+{"famiglia":"Nicotra renato","quantita":5,"daCasa":"In chiesa"}
