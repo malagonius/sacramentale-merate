@@ -10,3 +10,4 @@
 {"famiglia":"Nicotra renato","quantita":5,"daCasa":"In chiesa"}
 {"famiglia":"Alfredo Gessati","quantita":2,"daCasa":"In chiesa"}
 {"famiglia":"Nicotra Davide","quantita":1,"daCasa":"In chiesa"}
+{"famiglia":"AVILA ","quantita":2,"daCasa":"In chiesa"}
