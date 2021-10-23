@@ -12,3 +12,4 @@
 {"famiglia":"Gessati Alfredo","quantita":2,"daCasa":"In chiesa"}
 {"famiglia":"Azzolina","quantita":4,"daCasa":"In chiesa"}
 {"famiglia":"Paolino","quantita":4,"daCasa":"In chiesa"}
+{"famiglia":"NICOTRA RENATO E FAMIGLIA","quantita":3,"daCasa":"In chiesa"}
