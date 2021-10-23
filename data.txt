@@ -5,3 +5,4 @@
 {"famiglia":"Lo bue","quantita":1,"daCasa":"In chiesa"}
 {"famiglia":"Fossati ","quantita":2,"daCasa":"In chiesa"}
 {"famiglia":"Muiruri","quantita":5,"daCasa":"In chiesa"}
+{"famiglia":"Boer Adele","quantita":1,"daCasa":"In chiesa"}
