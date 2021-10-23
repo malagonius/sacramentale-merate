@@ -1,13 +1,2 @@
 
 
-{"famiglia":"Fossati","quantita":2,"daCasa":"In chiesa"}
-{"famiglia":"Anziani","quantita":3,"daCasa":"In chiesa"}
-{"famiglia":"Davide Gessati","quantita":6,"daCasa":"In chiesa"}
-{"famiglia":"Paolino","quantita":6,"daCasa":"In chiesa"}
-{"famiglia":"Muiruri","quantita":5,"daCasa":"In chiesa"}
-{"famiglia":"Emmanuele Dallari","quantita":2,"daCasa":"In chiesa"}
-{"famiglia":"Daniele Nicotra","quantita":8,"daCasa":"In chiesa"}
-{"famiglia":"Nicotra renato","quantita":5,"daCasa":"In chiesa"}
-{"famiglia":"Alfredo Gessati","quantita":2,"daCasa":"In chiesa"}
-{"famiglia":"Nicotra Davide","quantita":1,"daCasa":"In chiesa"}
-{"famiglia":"AVILA ","quantita":2,"daCasa":"In chiesa"}
