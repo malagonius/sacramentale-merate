@@ -2,3 +2,4 @@
 
 
 {"famiglia":"Avila","quantita":2,"daCasa":"In chiesa"}
+{"famiglia":"Lo bue","quantita":1,"daCasa":"In chiesa"}
