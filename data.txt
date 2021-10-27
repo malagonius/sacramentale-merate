@@ -6,3 +6,4 @@
 {"famiglia":"Fossati","quantita":2,"daCasa":"In chiesa"}
 {"famiglia":"Dallari Garitta","quantita":4,"daCasa":"In chiesa"}
 {"famiglia":"Daniele Nicotra","quantita":5,"daCasa":"In chiesa"}
+{"famiglia":"Fabio Nicotra","quantita":2,"daCasa":"In chiesa"}
