@@ -3,3 +3,4 @@
 
 {"famiglia":"Emmanuele Dallari","quantita":2,"daCasa":"In chiesa"}
 {"famiglia":"Nicotra Renato ","quantita":3,"daCasa":"In chiesa"}
+{"famiglia":"Fossati","quantita":2,"daCasa":"In chiesa"}
