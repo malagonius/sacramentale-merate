@@ -12,3 +12,4 @@
 {"famiglia":"Muiruri","quantita":5,"daCasa":"In chiesa"}
 {"famiglia":"Monica","quantita":3,"daCasa":"In chiesa"}
 {"famiglia":"Muce","quantita":1,"daCasa":"In chiesa"}
+{"famiglia":"Manicoba","quantita":4,"daCasa":"In chiesa"}
