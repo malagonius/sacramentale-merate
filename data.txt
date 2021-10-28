@@ -10,3 +10,4 @@
 {"famiglia":"Avila","quantita":2,"daCasa":"In chiesa"}
 {"famiglia":"Lo Bue","quantita":2,"daCasa":"In chiesa"}
 {"famiglia":"Muiruri","quantita":5,"daCasa":"In chiesa"}
+{"famiglia":"Monica","quantita":3,"daCasa":"In chiesa"}
