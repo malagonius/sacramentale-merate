@@ -9,11 +9,10 @@
 {"famiglia":"Fabio Nicotra","quantita":2,"daCasa":"In chiesa"}
 {"famiglia":"Avila","quantita":2,"daCasa":"In chiesa"}
 {"famiglia":"Lo Bue","quantita":2,"daCasa":"In chiesa"}
-{"famiglia":"Muiruri","quantita":5,"daCasa":"In chiesa"}
 {"famiglia":"Monica","quantita":3,"daCasa":"In chiesa"}
 {"famiglia":"Muce","quantita":1,"daCasa":"In chiesa"}
 {"famiglia":"Manicoba","quantita":4,"daCasa":"In chiesa"}
 {"famiglia":"Incontri fiorenza","quantita":1,"daCasa":"In chiesa"}
 {"famiglia":"Emanuele Brigatti","quantita":1,"daCasa":"In chiesa"}
 {"famiglia":"Pavone Jr.","quantita":2,"daCasa":"In chiesa"}
-{"famiglia":"Maria Pérez ","quantita":2,"daCasa":"In chiesa"}
+{"famiglia":"Maria PÃ©rez ","quantita":2,"daCasa":"In chiesa"}
