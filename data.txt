@@ -16,3 +16,4 @@
 {"famiglia":"Incontri fiorenza","quantita":1,"daCasa":"In chiesa"}
 {"famiglia":"Emanuele Brigatti","quantita":1,"daCasa":"In chiesa"}
 {"famiglia":"Pavone Jr.","quantita":2,"daCasa":"In chiesa"}
+{"famiglia":"Maria Pérez ","quantita":2,"daCasa":"In chiesa"}
