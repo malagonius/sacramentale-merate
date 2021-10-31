@@ -18,3 +18,4 @@
 {"famiglia":"Maria Pérez ","quantita":2,"daCasa":"In chiesa"}
 
 {"famiglia":"Nicotra Davide","quantita":1,"daCasa":"In chiesa"}
+{"famiglia":"Nicotra Giuseppe ","quantita":3,"daCasa":"In chiesa"}
