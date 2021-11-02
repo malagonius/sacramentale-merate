@@ -4,3 +4,4 @@
 {"famiglia":"Nicotra Renato ","quantita":3,"daCasa":"In chiesa"}
 {"famiglia":"Daniele Nicotra","quantita":5,"daCasa":"In chiesa"}
 {"famiglia":"Nicotra Giuseppe ","quantita":3,"daCasa":"In chiesa"}
+{"famiglia":"Fossati","quantita":2,"daCasa":"In chiesa"}
