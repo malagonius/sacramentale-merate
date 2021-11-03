@@ -7,3 +7,4 @@
 {"famiglia":"Fossati","quantita":2,"daCasa":"In chiesa"}
 {"famiglia":"Davide Gessati","quantita":6,"daCasa":"In chiesa"}
 {"famiglia":"Paolino","quantita":5,"daCasa":"In chiesa"}
+{"famiglia":"Davide Nicotra","quantita":3,"daCasa":"In chiesa"}
