@@ -8,3 +8,4 @@
 {"famiglia":"Davide Gessati","quantita":6,"daCasa":"In chiesa"}
 {"famiglia":"Paolino","quantita":5,"daCasa":"In chiesa"}
 {"famiglia":"Davide Nicotra","quantita":3,"daCasa":"In chiesa"}
+{"famiglia":"Muce ","quantita":5,"daCasa":"In chiesa"}
