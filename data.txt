@@ -10,3 +10,4 @@
 {"famiglia":"Davide Nicotra","quantita":3,"daCasa":"In chiesa"}
 {"famiglia":"Muce ","quantita":5,"daCasa":"In chiesa"}
 {"famiglia":"Muiruri","quantita":5,"daCasa":"In chiesa"}
+{"famiglia":"Pavone Jr.","quantita":2,"daCasa":"In chiesa"}
