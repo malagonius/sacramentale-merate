@@ -1,7 +1,7 @@
 
 
 
-{"famiglia":"Nicotra Renato ","quantita":3,"daCasa":"In chiesa"}
+{"famiglia":"Nicotra Renato ","quantita":2,"daCasa":"In chiesa"}
 {"famiglia":"Daniele Nicotra","quantita":5,"daCasa":"In chiesa"}
 {"famiglia":"Nicotra Giuseppe ","quantita":3,"daCasa":"In chiesa"}
 {"famiglia":"Fossati","quantita":2,"daCasa":"In chiesa"}
@@ -12,4 +12,4 @@
 {"famiglia":"Muiruri","quantita":5,"daCasa":"In chiesa"}
 {"famiglia":"Pavone Jr.","quantita":2,"daCasa":"In chiesa"}
 {"famiglia":"Emmanuele Dallari","quantita":1,"daCasa":"In chiesa"}
-{"famiglia":"¡vila ","quantita":2,"daCasa":"In chiesa"}
+{"famiglia":"√Åvila ","quantita":2,"daCasa":"In chiesa"}
