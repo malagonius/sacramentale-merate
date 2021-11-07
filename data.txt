@@ -13,3 +13,5 @@
 {"famiglia":"Pavone Jr.","quantita":2,"daCasa":"In chiesa"}
 {"famiglia":"Emmanuele Dallari","quantita":1,"daCasa":"In chiesa"}
 {"famiglia":"Ávila ","quantita":2,"daCasa":"In chiesa"}
+
+{"famiglia":"Rodriguez ","quantita":1,"daCasa":"In chiesa"}
