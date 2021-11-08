@@ -1,5 +1,1 @@
 
-
-
-{"famiglia":"Asdrubale","quantita":5,"riunione":"riunione2"}
-{"famiglia":"Arcibaldo","quantita":1,"riunione":"riunione1"}
