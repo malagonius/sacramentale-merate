@@ -1,3 +1,4 @@
 
 
 {"famiglia":"Mattia Nicotra","quantita":5,"riunione":"riunione1"}
+{"famiglia":"Arcibaldo Reyes","quantita":3,"riunione":"riunione2"}
