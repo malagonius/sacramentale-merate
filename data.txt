@@ -1,17 +1,2 @@
 
 
-
-{"famiglia":"Nicotra Renato ","quantita":2,"daCasa":"In chiesa"}
-{"famiglia":"Daniele Nicotra","quantita":5,"daCasa":"In chiesa"}
-{"famiglia":"Nicotra Giuseppe ","quantita":3,"daCasa":"In chiesa"}
-{"famiglia":"Fossati","quantita":2,"daCasa":"In chiesa"}
-{"famiglia":"Davide Gessati","quantita":6,"daCasa":"In chiesa"}
-{"famiglia":"Paolino","quantita":5,"daCasa":"In chiesa"}
-{"famiglia":"Davide Nicotra","quantita":3,"daCasa":"In chiesa"}
-{"famiglia":"Muce ","quantita":5,"daCasa":"In chiesa"}
-{"famiglia":"Muiruri","quantita":5,"daCasa":"In chiesa"}
-{"famiglia":"Pavone Jr.","quantita":2,"daCasa":"In chiesa"}
-{"famiglia":"Emmanuele Dallari","quantita":1,"daCasa":"In chiesa"}
-{"famiglia":"Ávila ","quantita":2,"daCasa":"In chiesa"}
-
-{"famiglia":"Rodriguez ","quantita":1,"daCasa":"In chiesa"}
