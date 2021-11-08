@@ -1,6 +1,2 @@
 
 
-{"famiglia":"Mattia Nicotra","quantita":5,"riunione":"riunione1"}
-{"famiglia":"Arcibaldo Reyes","quantita":3,"riunione":"riunione2"}
-{"famiglia":"Lopiparo Antonina","quantita":5,"riunione":"riunione1"}
-{"famiglia":"Arcibaldo rejeys","quantita":10,"riunione":"riunione9:00"}
