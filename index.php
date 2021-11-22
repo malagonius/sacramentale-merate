@@ -37,7 +37,7 @@ header("Expires: 0"); // Proxies.
 
 		</div>
 		<p>
-		<div onclick="book()" href="#" id="prenota" class="btn btn-primary"> Prenota posto in Chiesa</div>
+		<div onclick="book()" href="#" id="prenota" class="btn btn-primary">Riunione delle 9:00</div>
 	</div>
 
 	<div id="availability" class="availabilty" >
