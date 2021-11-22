@@ -18,6 +18,19 @@ header("Expires: 0"); // Proxies.
 	</div>
 	<h1>Rione di Merate</h1>
 	<h5>Riunione Sacramentale del <span id="giornoSacramentale"></span></h5>
+	<div class="jumbotron">
+	  <h1 class="display-4">Ciao!</h1>
+	  <p class="lead">Qualora abbiate incarichi da svolgere o bambini da portare in primaria siete invitati a prenotarvi alla riunione delle 10:00, altrimenti a prenotarvi alla riunione delle 9:00</p>
+	  <hr class="my-4">
+	  <p>Per cambiare riunione premere lo slider sottostante "riunione delle ..."</p>
+	  <div>
+	  		<label for="daCasa">Riunione delle 9:00</label>
+	  		<label class="switch" onclick="changeLabel()">
+  				<input id="daCasa" name="daCasa"type="checkbox">
+ 				<span class="slider round"></span>
+ 			</label>
+		</div>
+	</div>
 	<div> 
 		<div class="input_container">
 			<label for="name">Famiglia</label><input type="text" id="name" name="name">
@@ -26,28 +39,23 @@ header("Expires: 0"); // Proxies.
 		  		<img src="up.png" id="up" onclick="increaseNumber(true)">
 		  		<img src="up.png" id="down" onclick="increaseNumber(false)">
 		  	</div>
-		  	<div>
-		  		<label for="daCasa">da Casa</label>
-		  		<label class="switch" onclick="changeLabel()">
-	  				<input id="daCasa" name="daCasa"type="checkbox">
-	 				<span class="slider round"></span>
-	 			</label>
- 			</div>
+		  	
 		  	
 
 		</div>
 		<p>
-		<div onclick="book()" href="#" id="prenota" class="btn btn-primary">Riunione delle 9:00</div>
+		<div onclick="book()" href="#" id="prenota" class="btn btn-primary">Prenota riunione delle 9:00</div>
 	</div>
 
 	<div id="availability" class="availabilty" >
 		<ul id="booked_list"></ul>
 		<ul id="booked_list_home"></ul>
 		</p>
-		Posti prenotati in chiesa:
+		Riunione delle <span id="riunion1_"></span>
 		<span id="current"></span> /
 		<span id="limit"></span><br>
-		Partecipazione da casa: <span id="pDaCasa">0</span>
+		Riunione delle <span id="riunion2_"></span> <span id="pDaCasa">0</span> /
+		<span id="limit2"></span>
 	</div>
 
 	<p class="annunci-container">

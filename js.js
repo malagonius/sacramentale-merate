@@ -1,4 +1,5 @@
-var nMassimoPrenotazioni = 35;
+var nMassimoPrenotazioni = 42;
+var nMassimoPrenotazioni_2 = 42;
 var nCorrentePersone = 0;
 var curr = document.getElementById("current");
 var limit = document.getElementById("limit");
@@ -11,7 +12,7 @@ var accessToken = "?access_token=2fda00e0b47ce4c53fb3c4b69b180f06187075b0";
 var CORS = "https://cors-anywhere.herokuapp.com/";
 var loadedData="\n";
 var riunione1="9:00";
-var riunione2="11:00";
+var riunione2="10:00";
 
 
 window.onload = function(e) {
@@ -19,6 +20,8 @@ window.onload = function(e) {
 	curr.innerHTML = nCorrentePersone;
 	limit.innerHTML = nMassimoPrenotazioni;
 	limit2.innerHTML = nMassimoPrenotazioni;
+	document.getElementById("riunion1_").innerHTML = riunione1;
+	document.getElementById("riunion2_").innerHTML = riunione2;
 	var d = new Date();
 	var giorno=d.addDays(7-d.getDay());
 	var myDateString = ("0"+giorno.getDate()).slice(-2)+"/"+("0"+(giorno.getMonth()+1)).slice(-2);
@@ -252,8 +255,8 @@ validInputs = function(nome,quantita,isRiunione1){
 			return false;
 		}
 	}else{
-		if(parseInt(pDaCasa.innerHTML)+quantita > nMassimoPrenotazioni){
-			alert("Impossibile prenotare per la riunione delle "+ riunione2 +" !! Il numero massimo di prenotazioni '"+nMassimoPrenotazioni+"' è stato superato");
+		if(parseInt(pDaCasa.innerHTML)+quantita > nMassimoPrenotazioni_2){
+			alert("Impossibile prenotare per la riunione delle "+ riunione2 +" !! Il numero massimo di prenotazioni '"+nMassimoPrenotazioni_2+"' è stato superato");
 			return false;
 		}
 	}
