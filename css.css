@@ -115,7 +115,7 @@ label{width:65px;}
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #ccc;
+  background-color: #47eb55;
   -webkit-transition: .4s;
   transition: .4s;
 }
@@ -154,9 +154,20 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 50%;
 }
-
+label[for=daCasa]{
+  width:initial;
+}
 @media only screen and (max-width: 767px) {
   .logo_span {
     margin-bottom: 50px;
   }
 }
+@media only screen and (max-width: 404px) {
+  .switch {
+      display: block;
+      margin: auto;
+      top: 0px;
+  }
+}
+
+

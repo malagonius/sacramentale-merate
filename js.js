@@ -1,26 +1,30 @@
-var nMassimoPrenotazioni = 42;
+var nMassimoPrenotazioni = 35;
 var nCorrentePersone = 0;
 var curr = document.getElementById("current");
 var limit = document.getElementById("limit");
+var limit2 = document.getElementById("limit2");
+var limitDCasa = document.getElementById("limitDCasa");
 var quantity = document.getElementById("quantity");
 var pDaCasa = document.getElementById("pDaCasa");
 var dragEvent = "";
 var accessToken = "?access_token=2fda00e0b47ce4c53fb3c4b69b180f06187075b0";
 var CORS = "https://cors-anywhere.herokuapp.com/";
 var loadedData="\n";
-var timesClicked = 0;
+var riunione1="9:00";
+var riunione2="11:00";
 
 
 window.onload = function(e) {
 	
 	curr.innerHTML = nCorrentePersone;
 	limit.innerHTML = nMassimoPrenotazioni;
+	limit2.innerHTML = nMassimoPrenotazioni;
 	var d = new Date();
 	var giorno=d.addDays(7-d.getDay());
 	var myDateString = ("0"+giorno.getDate()).slice(-2)+"/"+("0"+(giorno.getMonth()+1)).slice(-2);
 	document.getElementById("giornoSacramentale").innerHTML=myDateString;
 
-	loadData(false);
+	loadData();
 }
 
 Date.prototype.addDays = function(days) {
@@ -54,7 +58,8 @@ increaseNumber = function(isUp){
 }
 
 changeLabel = function(){
-	document.getElementById("prenota").innerHTML = document.getElementById("daCasa").checked ? "Prenota da Casa " : "Prenota posto in Chiesa";
+	document.getElementById("prenota").innerHTML = !document.getElementById("daCasa").checked ? "Prenota riunione delle " + riunione1 : "Prenota riunione delle " + riunione2;
+	document.querySelector("label[for=daCasa]").innerText= !document.getElementById("daCasa").checked ? "Riunione delle " + riunione1 : "Riunione delle " + riunione2;
 }
 book = function(){
 	var nome = document.getElementById("name");
@@ -62,9 +67,9 @@ book = function(){
 	var quantita = parseInt(quantity.value);
 	var pDaCasa = document.getElementById("pDaCasa");
 
-	if(validInputs(nome.value,quantita)){
-		var daCasa = fromHome.checked ? "Da casa" : "In chiesa";
-		var json = JSON.stringify({'famiglia': nome.value, 'quantita': quantita, 'daCasa':daCasa})
+	if(validInputs(nome.value,quantita,fromHome.checked)){
+		var riunione = !fromHome.checked ? riunione1 : riunione2;
+		var json = JSON.stringify({'famiglia': nome.value, 'quantita': quantita, 'riunione':riunione})
 
 		var uploadURL ="https://api.github.com/repos/malagonius/sacramentale-merate/contents/data.txt";
 		var newData = atob(loadedData.content)+"\n"+json;
@@ -87,9 +92,7 @@ book = function(){
 		})
 		  .done(function( msg ) {
 		    console.log( "Data Saved: " + json );
-		    document.getElementById("book_success").classList.remove("fade");
-          	loadData(true);
-          	setTimeout(function(){ document.getElementById("book_success").classList.add("fade"); }, 4000);
+		    loadData();
 		  });
 
 
@@ -122,11 +125,26 @@ drag = function(event){
 }
 
 drop = function(event){
-	if(event.target.it="logo"){
-		timesClicked += 1;
-		if(timesClicked==10){
-			
-			timesClicked=0;
+	if(event.target.id=="logo"){
+		if(dragEvent.id=="availability"){
+			var json = "{}";
+			jQuery.ajax({
+		    type: "POST",
+		    url: 'book.php',
+		    dataType: 'json',
+		    data: {functionname: 'delete-all', arguments: json},
+
+		    success: function (obj, textstatus) {
+		                  if( !('error' in obj) ) {
+		                      yourVariable = obj.result;
+		                      loadData();
+		                  }
+		                  else {
+		                      console.log(obj.error);
+		                  }
+		            }
+			});
+			return;
 		}
 	}
 	if(event.target.id=="annunci-container"){
@@ -146,10 +164,7 @@ drop = function(event){
 			    success: function (obj, textstatus) {
 			                  if( !('error' in obj) ) {
 			                      yourVariable = obj.result;
-			                      document.getElementById("book_success").classList.remove("fade");
-			                      loadData(true);
-			                      setTimeout(function(){ document.getElementById("book_success").classList.add("fade"); }, 3000);
-			                      
+			                      loadData();
 			                  }
 			                  else {
 			                      console.log(obj.error);
@@ -162,14 +177,16 @@ drop = function(event){
 	dragEvent = "";
 }
 
-loadData = function(forceReload){
-	
+loadData = function(){
+
 	var json = "{}";
+	var q = Math.random();
 	jQuery.ajax({
     type: "GET",
     //url: CORS+'https://raw.github.com/malagonius/sacramentale-merate/master/data.txt',
-    url: "https://api.github.com/repos/malagonius/sacramentale-merate/contents/data.txt",
+    url: "https://api.github.com/repos/malagonius/sacramentale-merate/contents/data.txt?q="+q,
     dataType: 'json',
+
     success: function (obj, textstatus) {
       	if( !('error' in obj) ) {
 	      	loadedData=obj;
@@ -191,8 +208,8 @@ loadData = function(forceReload){
 	      		jsonRow = JSON.parse(row);
 	      		li = document.createElement("li");
 	      		li.id=jsonRow.famiglia;
-	      		li.innerHTML = "Famiglia: "+jsonRow.famiglia+" | Persone: "+jsonRow.quantita+ " | "+jsonRow.daCasa;
-	      		if(jsonRow.daCasa === "In chiesa"){
+	      		li.innerHTML = "Famiglia: "+jsonRow.famiglia+" | Persone: "+jsonRow.quantita+ " | "+jsonRow.riunione;
+	      		if(jsonRow.riunione === riunione1){
 					lista = document.getElementById('booked_list');
 					curr.innerHTML = (parseInt(curr.innerHTML)+jsonRow.quantita);
 				}else{
@@ -206,9 +223,7 @@ loadData = function(forceReload){
       	else {
           		console.log(obj.error);
   			}
-  			if(forceReload) window.location.reload(true); //distruggi la cache yeah
         }
-
 	});
 
 	
@@ -221,47 +236,29 @@ cleanLocalLists = function(){
   	pDaCasa.innerHTML="0";
 }
 
-deleteRecords = function(){
-	var uploadURL = "https://api.github.com/repos/malagonius/sacramentale-merate/contents/data.txt";
-	var newData = "\n";
-	$.ajax({
-		type: "PUT",
-		url: uploadURL,
-		contentType: "application/json",
-		dataType: "json",
-		headers: {
-			    "accept": "application/vnd.github.v3+json",
-			    "Authorization": "Basic bWFsYWdvbml1czo0NjJhMjZjZjA3ZTMxMTU5NzkyMzFmNjkzNjIxOTk4NzdmYmQ3ODAx",
-			    "Content-Type": "application/json",
-			},
-		data: JSON.stringify({
-		"message": "records were cleared",
-		"content": btoa(newData),
-		"sha": loadedData.sha
-	    }),
-
-	})
-	  .done(function( msg ) {
-	    console.log( "Data Cleared! ");
-	    loadData(true);
-	  });
-	
-}
-
-validInputs = function(nome,quantita){
+validInputs = function(nome,quantita,isRiunione1){
 	var ret = true;
 	if(nome === ""){
 		alert("perfavore inserire un nome");
 		return false;
 	}
 	if(isNaN(quantita) || quantita==null){
-		alert("perfavore indicare quanti sarete");
+		alerT("perfavore indicare quanti sarete");
 		return false;
 	}
-	if(parseInt(curr.innerHTML)+quantita > nMassimoPrenotazioni){
-		alert("Impossibile prenotare!! Il numero massimo di prenotazioni '"+nMassimoPrenotazioni+"' è stato superato");
-		return false;
+	if(isRiunione1){
+		if(parseInt(curr.innerHTML)+quantita > nMassimoPrenotazioni){
+			alert("Impossibile prenotare per la riunione delle "+ riunione1 + " !! Il numero massimo di prenotazioni '"+nMassimoPrenotazioni+"' è stato superato");
+			return false;
+		}
+	}else{
+		if(parseInt(pDaCasa.innerHTML)+quantita > nMassimoPrenotazioni){
+			alert("Impossibile prenotare per la riunione delle "+ riunione2 +" !! Il numero massimo di prenotazioni '"+nMassimoPrenotazioni+"' è stato superato");
+			return false;
+		}
 	}
+	
+	
 	var churchList = document.getElementById("booked_list").children;
 	for(var i=0; i< churchList.length;i++){
 		if(churchList[i].id === nome){
@@ -284,3 +281,29 @@ validInputs = function(nome,quantita){
 }
 
 
+deleteRecords = function(){
+	var uploadURL ="https://api.github.com/repos/malagonius/sacramentale-merate/contents/data.txt";
+	var newData = "\n";
+	$.ajax({
+		type: "PUT",
+		url: uploadURL,
+		contentType: "application/json",
+		dataType: "json",
+		headers: {
+			    "accept": "application/vnd.github.v3+json",
+			    "Authorization": "Basic bWFsYWdvbml1czo0NjJhMjZjZjA3ZTMxMTU5NzkyMzFmNjkzNjIxOTk4NzdmYmQ3ODAx",
+			    "Content-Type": "application/json",
+			},
+		data: JSON.stringify({
+		"message": "records were cleared",
+		"content": btoa(newData),
+		"sha": loadedData.sha
+	    }),
+
+	})
+	  .done(function( msg ) {
+	    console.log( "Data Saved: " + json );
+	    loadData();
+	  });
+	
+}
