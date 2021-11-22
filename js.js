@@ -249,7 +249,7 @@ validInputs = function(nome,quantita,isRiunione1){
 		alerT("perfavore indicare quanti sarete");
 		return false;
 	}
-	if(isRiunione1){
+	if(!isRiunione1){
 		if(parseInt(curr.innerHTML)+quantita > nMassimoPrenotazioni){
 			alert("Impossibile prenotare per la riunione delle "+ riunione1 + " !! Il numero massimo di prenotazioni '"+nMassimoPrenotazioni+"' è stato superato");
 			return false;
