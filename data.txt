@@ -6,3 +6,4 @@
 {"famiglia":"Mirko Nicotra","quantita":40,"riunione":"10:00"}
 {"famiglia":"Mattia 123","quantita":1,"riunione":"10:00"}
 {"famiglia":"Deposita denaro","quantita":1,"riunione":"10:00"}
+{"famiglia":"123aa","quantita":20,"riunione":"9:00"}
