@@ -18,7 +18,7 @@ header("Expires: 0"); // Proxies.
 	</div>
 	<h1>Rione di Merate</h1>
 	<h5>Riunione Sacramentale del <span id="giornoSacramentale"></span></h5>
-	<div class="jumbotron">
+	<div class="jumbotron" style="display:none">
 	  <h1 class="display-4">Ciao!</h1>
 	  <p class="lead">Qualora abbiate incarichi da svolgere o bambini da portare in primaria siete invitati a prenotarvi alla riunione delle 10:00, altrimenti a prenotarvi alla riunione delle 9:00</p>
 	  <hr class="my-4">
@@ -54,8 +54,8 @@ header("Expires: 0"); // Proxies.
 		Riunione delle <span id="riunion1_"></span>
 		<span id="current"></span> /
 		<span id="limit"></span><br>
-		Riunione delle <span id="riunion2_"></span> <span id="pDaCasa">0</span> /
-		<span id="limit2"></span>
+		<span style="display: none">Riunione delle <span id="riunion2_"></span> <span id="pDaCasa">0</span> /
+		<span id="limit2"></span></span>
 	</div>
 
 	<p class="annunci-container">
