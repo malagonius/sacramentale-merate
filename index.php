@@ -95,7 +95,7 @@ header("Expires: 0"); // Proxies.
 		<span id="annunci">L’accesso ai locali della Chiesa dovrà essere contingentato e rispettare quanto richiesto dalle
 							normative per i luoghi pubblici in emergenza Covid.<br> Questo significa che:
 							<ul>
-								<li>In chiesa potranno accedere un massimo di 42 persone.</li>
+								<li>In chiesa potranno accedere un massimo di <span id="limit_L"></span> persone.</li>
 								<li>Per poter entrare bisogna avere la mascherina</li>
 								<li>All’ingresso verrà misurata la temperatura.</li>
 								<li>All’interno della Chiesa non si potrà fare assembramenti e si dovrà mantenere le distanze.</li>
