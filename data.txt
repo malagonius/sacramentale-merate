@@ -1,5 +1,2 @@
 
 
-
-
-{"famiglia":"TEST","quantita":1,"riunione":"9:00"}
