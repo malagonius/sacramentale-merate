@@ -7,11 +7,11 @@
 {"famiglia":"Dallari Emanuele","quantita":2,"riunione":"9:00"}
 {"famiglia":"Lo Bue","quantita":2,"riunione":"9:00"}
 {"famiglia":"Pereira","quantita":4,"riunione":"9:00"}
-{"famiglia":"Monica","quantita":3,"riunione":"9:00"}
+{"famiglia":"Monica","quantita":1,"riunione":"9:00"}
 {"famiglia":"Mirian Estanga","quantita":2,"riunione":"9:00"}
 {"famiglia":"Daniele Nicotra","quantita":5,"riunione":"9:00"}
 {"famiglia":"Paolino","quantita":4,"riunione":"9:00"}
 {"famiglia":"Mondelli Boer","quantita":6,"riunione":"9:00"}
 {"famiglia":"Davide Nicotra","quantita":3,"riunione":"9:00"}
 
-{"famiglia":"Renato Nicotra ","quantita":3,"riunione":"9:00"}
+{"famiglia":"Renato Nicotra ","quantita":2,"riunione":"9:00"}
