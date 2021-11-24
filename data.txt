@@ -5,7 +5,6 @@
 {"famiglia":"Alfredo Gessati","quantita":2,"riunione":"9:00"}
 {"famiglia":"Dallari valerio","quantita":4,"riunione":"9:00"}
 {"famiglia":"Dallari Emanuele","quantita":2,"riunione":"9:00"}
-{"famiglia":"Dallari V.","quantita":4,"riunione":"9:00"}
 {"famiglia":"Lo Bue","quantita":2,"riunione":"9:00"}
 {"famiglia":"Pereira","quantita":4,"riunione":"9:00"}
 {"famiglia":"Monica","quantita":3,"riunione":"9:00"}
