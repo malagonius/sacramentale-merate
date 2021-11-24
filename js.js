@@ -4,6 +4,7 @@ var nCorrentePersone = 0;
 var curr = document.getElementById("current");
 var limit = document.getElementById("limit");
 var limit2 = document.getElementById("limit2");
+var limit_L = document.getElementById("limit_L");
 var limitDCasa = document.getElementById("limitDCasa");
 var quantity = document.getElementById("quantity");
 var pDaCasa = document.getElementById("pDaCasa");
@@ -19,6 +20,7 @@ window.onload = function(e) {
 	
 	curr.innerHTML = nCorrentePersone;
 	limit.innerHTML = nMassimoPrenotazioni;
+	limit_L.innerHTML = nMassimoPrenotazioni;
 	limit2.innerHTML = nMassimoPrenotazioni;
 	document.getElementById("riunion1_").innerHTML = riunione1;
 	document.getElementById("riunion2_").innerHTML = riunione2;
