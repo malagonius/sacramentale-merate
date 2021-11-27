@@ -18,3 +18,5 @@
 
 {"famiglia":"Boer Adele","quantita":1,"riunione":"9:00"}
 {"famiglia":"Davide Gessati","quantita":6,"riunione":"9:00"}
+
+{"famiglia":"Erique Carcelen","quantita":1,"riunione":"9:00"}
