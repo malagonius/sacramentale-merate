@@ -1,24 +1,3 @@
 
 
 
-{"famiglia":"Emanuele Brigatti","quantita":1,"riunione":"9:00"}
-{"famiglia":"Alfredo Gessati","quantita":2,"riunione":"9:00"}
-{"famiglia":"Dallari valerio","quantita":4,"riunione":"9:00"}
-{"famiglia":"Dallari Emanuele","quantita":2,"riunione":"9:00"}
-{"famiglia":"Lo Bue","quantita":2,"riunione":"9:00"}
-{"famiglia":"Pereira","quantita":4,"riunione":"9:00"}
-{"famiglia":"Monica","quantita":1,"riunione":"9:00"}
-{"famiglia":"Mirian Estanga","quantita":2,"riunione":"9:00"}
-{"famiglia":"Valeria Nicotra","quantita":1,"riunione":"9:00"}
-{"famiglia":"Paolino","quantita":4,"riunione":"9:00"}
-{"famiglia":"Mondelli Boer","quantita":6,"riunione":"9:00"}
-{"famiglia":"Davide Nicotra","quantita":3,"riunione":"9:00"}
-
-{"famiglia":"Renato Nicotra ","quantita":3,"riunione":"9:00"}
-
-{"famiglia":"Boer Adele","quantita":1,"riunione":"9:00"}
-{"famiglia":"Davide Gessati","quantita":6,"riunione":"9:00"}
-
-{"famiglia":"Erique Carcelen","quantita":1,"riunione":"9:00"}
-
-{"famiglia":"Fabio Nicotra","quantita":2,"riunione":"9:00"}
