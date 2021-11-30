@@ -18,7 +18,7 @@ header("Expires: 0"); // Proxies.
 	</div>
 	<h1>Rione di Merate</h1>
 	<h5>Riunione Sacramentale del <span id="giornoSacramentale"></span></h5>
-	<div class="jumbotron" style="/* display:none */">
+	<div class="jumbotron" style=" display:none ">
 	  <h1 class="display-4">Attenzione...</h1>
 	  <p class="lead" style="font-size: 1.5em;">
 		  Questa domenica si terrà la sacramentale della primaria<br> Per garantirne la buona riuscita  preghiamo i membri che non hanno figli o nipoti di seguirla via <a href="https://zoom.us/j/98084415406?pwd=merate" target="_blank">Zoom</a></p>
