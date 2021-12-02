@@ -8,3 +8,4 @@
 {"famiglia":"Avila","quantita":2,"riunione":"9:00"}
 {"famiglia":"Gessati Alfredo","quantita":2,"riunione":"9:00"}
 {"famiglia":"Gessati Davide","quantita":6,"riunione":"9:00"}
+{"famiglia":"Fabio Nicotra","quantita":2,"riunione":"9:00"}
