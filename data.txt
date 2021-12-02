@@ -10,3 +10,4 @@
 {"famiglia":"Gessati Davide","quantita":6,"riunione":"9:00"}
 {"famiglia":"Fabio Nicotra","quantita":2,"riunione":"9:00"}
 {"famiglia":"Pereira","quantita":4,"riunione":"9:00"}
+{"famiglia":"Daniele Nicotra","quantita":5,"riunione":"9:00"}
