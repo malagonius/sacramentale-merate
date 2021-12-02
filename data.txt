@@ -1,5 +1,3 @@
 
 
 
-
-{"famiglia":"IN ATTESA","quantita":47,"riunione":"9:00"}
