@@ -2,21 +2,3 @@
 
 
 
-{"famiglia":"Boer adele","quantita":1,"riunione":"9:00"}
-{"famiglia":"Dallari Valerio","quantita":5,"riunione":"9:00"}
-{"famiglia":"Marcell Rodriguez","quantita":1,"riunione":"9:00"}
-{"famiglia":"Avila","quantita":2,"riunione":"9:00"}
-{"famiglia":"Gessati Alfredo","quantita":2,"riunione":"9:00"}
-{"famiglia":"Gessati Davide","quantita":6,"riunione":"9:00"}
-{"famiglia":"Fabio Nicotra","quantita":2,"riunione":"9:00"}
-{"famiglia":"Pereira","quantita":4,"riunione":"9:00"}
-{"famiglia":"Daniele Nicotra","quantita":5,"riunione":"9:00"}
-{"famiglia":"Emmanuele Dallari","quantita":1,"riunione":"9:00"}
-{"famiglia":"Lo Bue","quantita":2,"riunione":"9:00"}
-{"famiglia":"Emanuele Fossati","quantita":1,"riunione":"9:00"}
-{"famiglia":"Mattia Nicotra","quantita":1,"riunione":"9:00"}
-{"famiglia":"Mirian Estanga","quantita":2,"riunione":"9:00"}
-{"famiglia":"Paolino","quantita":5,"riunione":"9:00"}
-{"famiglia":"Nicotra Davide","quantita":3,"riunione":"9:00"}
-{"famiglia":"Muiruri","quantita":3,"riunione":"9:00"}
-{"famiglia":"Enrico Fossati","quantita":1,"riunione":"9:00"}
