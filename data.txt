@@ -10,3 +10,4 @@
 {"famiglia":"Lo Bue","quantita":2,"riunione":"9:00"}
 {"famiglia":"Nicotra Davide","quantita":3,"riunione":"9:00"}
 {"famiglia":"Famiglia Fossati","quantita":2,"riunione":"9:00"}
+{"famiglia":"Pavone jr.","quantita":2,"riunione":"9:00"}
