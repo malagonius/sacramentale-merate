@@ -10,3 +10,4 @@
 {"famiglia":"Pavone jr","quantita":2,"riunione":"9:00"}
 {"famiglia":"Nicotra Renato ","quantita":2,"riunione":"9:00"}
 {"famiglia":"Emmanuele Dallari","quantita":1,"riunione":"9:00"}
+{"famiglia":"Gessati Alfredo","quantita":2,"riunione":"9:00"}
