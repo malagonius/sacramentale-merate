@@ -1,21 +1,2 @@
 
 
-
-
-
-{"famiglia":"Dallari V.","quantita":4,"riunione":"9:00"}
-{"famiglia":"Dallari E.","quantita":2,"riunione":"9:00"}
-{"famiglia":"Brigatti ","quantita":1,"riunione":"9:00"}
-{"famiglia":"Boer adele","quantita":1,"riunione":"9:00"}
-{"famiglia":"Lo Bue","quantita":2,"riunione":"9:00"}
-{"famiglia":"Nicotra Davide","quantita":3,"riunione":"9:00"}
-{"famiglia":"Famiglia Fossati","quantita":2,"riunione":"9:00"}
-{"famiglia":"Pavone jr.","quantita":2,"riunione":"9:00"}
-{"famiglia":"Mirian Estanga","quantita":2,"riunione":"9:00"}
-{"famiglia":"Nicotra Renato ","quantita":3,"riunione":"9:00"}
-{"famiglia":"Nicotra Daniele","quantita":5,"riunione":"9:00"}
-{"famiglia":"Gessati Davide","quantita":6,"riunione":"9:00"}
-{"famiglia":"Sara Mondelli ","quantita":4,"riunione":"9:00"}
-{"famiglia":"Emmanuele Dallari","quantita":2,"riunione":"9:00"}
-{"famiglia":"Paolino","quantita":6,"riunione":"9:00"}
-{"famiglia":"AVILA ","quantita":2,"riunione":"9:00"}
