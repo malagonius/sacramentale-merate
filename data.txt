@@ -15,3 +15,4 @@
 {"famiglia":"Gessati ","quantita":5,"riunione":"9:00"}
 {"famiglia":"Paolino","quantita":6,"riunione":"9:00"}
 {"famiglia":"Dallari","quantita":5,"riunione":"9:00"}
+{"famiglia":"Rodriguez ","quantita":2,"riunione":"9:00"}
