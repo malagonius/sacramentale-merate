@@ -12,3 +12,4 @@
 {"famiglia":"Emmanuele Dallari","quantita":1,"riunione":"9:00"}
 {"famiglia":"Gessati Alfredo","quantita":2,"riunione":"9:00"}
 {"famiglia":"Muiruri","quantita":5,"riunione":"9:00"}
+{"famiglia":"Gessati ","quantita":5,"riunione":"9:00"}
