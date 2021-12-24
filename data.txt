@@ -5,3 +5,4 @@
 {"famiglia":"Boer adele","quantita":3,"riunione":"9:00"}
 {"famiglia":"Boer manuel ","quantita":5,"riunione":"9:00"}
 {"famiglia":"Famiglia Fossati ","quantita":2,"riunione":"9:00"}
+{"famiglia":"Emmanuele Dallari","quantita":1,"riunione":"9:00"}
