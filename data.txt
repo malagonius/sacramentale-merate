@@ -7,3 +7,4 @@
 {"famiglia":"Daniele Nicotra","quantita":5,"riunione":"9:00"}
 {"famiglia":"Pavone jr.","quantita":2,"riunione":"9:00"}
 {"famiglia":"Boer Adele","quantita":4,"riunione":"9:00"}
+{"famiglia":"Dallari Garitta","quantita":4,"riunione":"9:00"}
