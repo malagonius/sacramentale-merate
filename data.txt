@@ -3,19 +3,3 @@
 
 
 
-{"famiglia":"Davide Gessati","quantita":6,"riunione":"9:00"}
-{"famiglia":"Daniele Nicotra","quantita":5,"riunione":"9:00"}
-{"famiglia":"Pavone jr.","quantita":2,"riunione":"9:00"}
-{"famiglia":"Boer Adele","quantita":4,"riunione":"9:00"}
-{"famiglia":"Dallari Garitta","quantita":4,"riunione":"9:00"}
-{"famiglia":"Enrique carcelen","quantita":1,"riunione":"9:00"}
-{"famiglia":"Paolino","quantita":6,"riunione":"9:00"}
-{"famiglia":"Muce","quantita":1,"riunione":"9:00"}
-{"famiglia":"Muce ","quantita":2,"riunione":"9:00"}
-{"famiglia":"Missionari","quantita":3,"riunione":"9:00"}
-{"famiglia":"Muiruri","quantita":5,"riunione":"9:00"}
-{"famiglia":"Sara Mondelli","quantita":1,"riunione":"9:00"}
-{"famiglia":"Alessandro Nosotti","quantita":1,"riunione":"9:00"}
-{"famiglia":"Muce Greta","quantita":1,"riunione":"9:00"}
-{"famiglia":"Siguenza ","quantita":2,"riunione":"9:00"}
-{"famiglia":"Monica ","quantita":3,"riunione":"9:00"}
