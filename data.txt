@@ -1,3 +1,4 @@
 
 
 {"famiglia":"DALLARI VALERIO","quantita":5,"riunione":"9:00"}
+{"famiglia":"Missionari","quantita":3,"riunione":"9:00"}
