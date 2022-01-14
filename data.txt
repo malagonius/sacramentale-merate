@@ -4,3 +4,4 @@
 {"famiglia":"Missionari","quantita":3,"riunione":"9:00"}
 {"famiglia":"Renato Nicotra ","quantita":3,"riunione":"9:00"}
 {"famiglia":"Avila","quantita":2,"riunione":"9:00"}
+{"famiglia":"Daniele Nicotra","quantita":5,"riunione":"9:00"}
