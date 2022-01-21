@@ -1,19 +1,2 @@
 
 
-{"famiglia":"DALLARI VALERIO","quantita":5,"riunione":"9:00"}
-{"famiglia":"Missionari","quantita":3,"riunione":"9:00"}
-{"famiglia":"Avila","quantita":2,"riunione":"9:00"}
-{"famiglia":"Daniele Nicotra","quantita":5,"riunione":"9:00"}
-{"famiglia":"Lo Bue","quantita":2,"riunione":"9:00"}
-{"famiglia":"Emmanuele Dallari","quantita":1,"riunione":"9:00"}
-{"famiglia":"Gessati Davide","quantita":6,"riunione":"9:00"}
-{"famiglia":"Pavone Jr.","quantita":2,"riunione":"9:00"}
-{"famiglia":"Gessati Alfredo","quantita":2,"riunione":"9:00"}
-{"famiglia":"Muiruri","quantita":5,"riunione":"9:00"}
-{"famiglia":"Fossati ","quantita":2,"riunione":"9:00"}
-{"famiglia":"Siguenza Benavides","quantita":2,"riunione":"9:00"}
-{"famiglia":"Muce ","quantita":3,"riunione":"9:00"}
-{"famiglia":"Mirian Estanga","quantita":2,"riunione":"9:00"}
-
-{"famiglia":"Paolino","quantita":4,"riunione":"9:00"}
-{"famiglia":"Monica ","quantita":1,"riunione":"9:00"}
