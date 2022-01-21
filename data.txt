@@ -8,3 +8,4 @@
 {"famiglia":"Fossati","quantita":2,"riunione":"9:00"}
 {"famiglia":"Missionari","quantita":2,"riunione":"9:00"}
 {"famiglia":"Emmanuele Dallari","quantita":2,"riunione":"9:00"}
+{"famiglia":"Renato Nicotra ","quantita":3,"riunione":"9:00"}
