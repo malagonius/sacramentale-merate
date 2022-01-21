@@ -6,3 +6,4 @@
 {"famiglia":"Alfredo Gessati","quantita":2,"riunione":"9:00"}
 {"famiglia":"dallari garitta","quantita":4,"riunione":"9:00"}
 {"famiglia":"Fossati","quantita":2,"riunione":"9:00"}
+{"famiglia":"Missionari","quantita":2,"riunione":"9:00"}
