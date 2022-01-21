@@ -10,3 +10,4 @@
 {"famiglia":"Emmanuele Dallari","quantita":2,"riunione":"9:00"}
 {"famiglia":"Renato Nicotra ","quantita":3,"riunione":"9:00"}
 {"famiglia":"Lo Bue","quantita":2,"riunione":"9:00"}
+{"famiglia":"Boer adele","quantita":1,"riunione":"9:00"}
