@@ -16,3 +16,4 @@
 {"famiglia":"I missionari","quantita":2,"riunione":"9:00"}
 {"famiglia":"Paolino","quantita":5,"riunione":"9:00"}
 {"famiglia":"Pavone jr.","quantita":1,"riunione":"9:00"}
+{"famiglia":"Familia Siguenza ","quantita":2,"riunione":"9:00"}
