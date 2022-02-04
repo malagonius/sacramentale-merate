@@ -11,3 +11,4 @@
 {"famiglia":"Renato Nicotra ","quantita":3,"riunione":"9:00"}
 {"famiglia":"Emmanuele Dallari","quantita":2,"riunione":"9:00"}
 {"famiglia":"Paolino","quantita":6,"riunione":"9:00"}
+{"famiglia":"Incontri ","quantita":1,"riunione":"9:00"}
