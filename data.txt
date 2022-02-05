@@ -20,3 +20,4 @@
 {"famiglia":"Nicotra Davide","quantita":4,"riunione":"9:00"}
 
 {"famiglia":"Mondelli Sara","quantita":1,"riunione":"9:00"}
+{"famiglia":"Alessandro Nosotti","quantita":1,"riunione":"9:00"}
