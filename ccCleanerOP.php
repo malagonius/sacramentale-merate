@@ -6,8 +6,7 @@
 <script>
 
 window.onload = function(){
-	loadData();
-	deleteRecords();
+	loadData(true);
 }
 
 </script>
