@@ -182,7 +182,7 @@ drop = function(event){
 	dragEvent = "";
 }
 
-loadData = function(){
+loadData = function(isCcCleaner = false){
 
 	var json = "{}";
 	var q = Math.random();
@@ -196,6 +196,10 @@ loadData = function(){
       	if( !('error' in obj) ) {
 	      	loadedData=obj;
 	      	data = atob(obj.content);
+		if(isCcCleaner){
+			deleteRecords()
+			return false;
+		}
 	      	if(data === false){
 	      		return;
 	      	}
