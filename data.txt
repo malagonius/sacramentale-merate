@@ -1,4 +1,1 @@
 
-
-{"famiglia":"ciao","quantita":2,"riunione":"9:00"}
-{"famiglia":"zio","quantita":3,"riunione":"9:00"}
