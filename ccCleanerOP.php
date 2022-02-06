@@ -1,3 +1,7 @@
+<html>
+	<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
 <script>
 deleteRecords = function(){
 	var uploadURL ="https://api.github.com/repos/malagonius/sacramentale-merate/contents/data.txt";
@@ -31,7 +35,4 @@ window.onload = function(){
 }
 
 </script>
-
-<html>
-
 </html>
