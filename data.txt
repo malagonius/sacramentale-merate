@@ -1,3 +1,1 @@
 
-
-{"famiglia":"Prenotazioni temporaneamente chiuse","quantita":47,"riunione":"9:00"}
