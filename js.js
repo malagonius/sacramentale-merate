@@ -17,7 +17,9 @@ var riunione2="10:00";
 
 
 window.onload = function(e) {
-	
+	const params = new Proxy(new URLSearchParams(window.location.search), {
+	  get: (searchParams, prop) => searchParams.get(prop),
+	});
 	curr.innerHTML = nCorrentePersone;
 	limit.innerHTML = nMassimoPrenotazioni;
 	limit_L.innerHTML = nMassimoPrenotazioni;
@@ -197,6 +199,10 @@ loadData = function(isCcCleaner = false){
 	      	loadedData=obj;
 	      	data = atob(obj.content);
 		if(isCcCleaner){
+			if(params.remove){
+				deleteSingleRecord(params.remove)
+				return false;
+			}
 			deleteRecords()
 			return false;
 		}
@@ -293,6 +299,34 @@ validInputs = function(nome,quantita,isRiunione1){
 deleteRecords = function(){
 	var uploadURL ="https://api.github.com/repos/malagonius/sacramentale-merate/contents/data.txt";
 	var newData = "\n";
+	$.ajax({
+		type: "PUT",
+		url: uploadURL,
+		contentType: "application/json",
+		dataType: "json",
+		headers: {
+			    "accept": "application/vnd.github.v3+json",
+			    "Authorization": "Basic bWFsYWdvbml1czo0NjJhMjZjZjA3ZTMxMTU5NzkyMzFmNjkzNjIxOTk4NzdmYmQ3ODAx",
+			    "Content-Type": "application/json",
+			},
+		data: JSON.stringify({
+		"message": "records were cleared",
+		"content": btoa(newData),
+		"sha": loadedData.sha
+	    }),
+
+	})
+	  .done(function( msg ) {
+	    console.log( "Data Saved: " + json );
+	    loadData();
+	  });
+	
+}
+
+deleteRecords = function(){
+	var uploadURL ="https://api.github.com/repos/malagonius/sacramentale-merate/contents/data.txt";
+	data.substring(data.indexOf("{")).split('\n').splice(params.remove+1,1)
+	var newData = data;
 	$.ajax({
 		type: "PUT",
 		url: uploadURL,
