@@ -16,3 +16,4 @@
 {"famiglia":"Benavides ","quantita":2,"riunione":"9:00"}
 {"famiglia":"Lo Bue","quantita":2,"riunione":"9:00"}
 {"famiglia":"Avila","quantita":2,"riunione":"9:00"}
+{"famiglia":"Gessati Davide","quantita":6,"riunione":"9:00"}
