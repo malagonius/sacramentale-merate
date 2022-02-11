@@ -17,9 +17,6 @@ var riunione2="10:00";
 
 
 window.onload = function(e) {
-	const params = new Proxy(new URLSearchParams(window.location.search), {
-	  get: (searchParams, prop) => searchParams.get(prop),
-	});
 	curr.innerHTML = nCorrentePersone;
 	limit.innerHTML = nMassimoPrenotazioni;
 	limit_L.innerHTML = nMassimoPrenotazioni;
@@ -185,7 +182,9 @@ drop = function(event){
 }
 
 loadData = function(isCcCleaner = false){
-
+	const params = new Proxy(new URLSearchParams(window.location.search), {
+	  get: (searchParams, prop) => searchParams.get(prop),
+	});
 	var json = "{}";
 	var q = Math.random();
 	jQuery.ajax({
@@ -198,11 +197,12 @@ loadData = function(isCcCleaner = false){
       	if( !('error' in obj) ) {
 	      	loadedData=obj;
 	      	data = atob(obj.content);
+		if(params.remove){
+		deleteSingleRecord(params.remove)
+		return false;
+		}
 		if(isCcCleaner){
-			if(params.remove){
-				deleteSingleRecord(params.remove)
-				return false;
-			}
+			
 			deleteRecords()
 			return false;
 		}
