@@ -345,8 +345,7 @@ deleteSingleRecord = function(record){
 
 	})
 	  .done(function( msg ) {
-	    console.log( "Data Saved: " + json );
-	    loadData();
+		window.location.href= "https://sacramentale-merate.herokuapp.com/";
 	  });
 	
 }
