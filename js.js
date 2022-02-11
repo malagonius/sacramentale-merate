@@ -325,7 +325,7 @@ deleteRecords = function(){
 
 deleteSingleRecord = function(record){
 	var uploadURL ="https://api.github.com/repos/malagonius/sacramentale-merate/contents/data.txt";
-	data.substring(data.indexOf("{")).split('\n').splice(redord+1,1)
+	data.substring(data.indexOf("{")).split('\n').splice(parseInt(record)+1,1)
 	var newData = data;
 	$.ajax({
 		type: "PUT",
