@@ -54,7 +54,7 @@ header("Expires: 0"); // Proxies.
 	</div>
 
 	<div id="availability" class="availabilty" >
-		<ul id="booked_list"></ul>
+		<ol id="booked_list"></ol>
 		<ul id="booked_list_home"></ul>
 		</p>
 		Riunione delle <span id="riunion1_"></span>
