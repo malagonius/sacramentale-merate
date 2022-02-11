@@ -198,8 +198,8 @@ loadData = function(isCcCleaner = false){
 	      	loadedData=obj;
 	      	data = atob(obj.content);
 		if(params.remove){
-		deleteSingleRecord(params.remove)
-		return false;
+		  deleteSingleRecord(params.remove)
+		  return false;
 		}
 		if(isCcCleaner){
 			
@@ -323,7 +323,7 @@ deleteRecords = function(){
 	
 }
 
-deleteRecords = function(){
+deleteSingleRecord = function(){
 	var uploadURL ="https://api.github.com/repos/malagonius/sacramentale-merate/contents/data.txt";
 	data.substring(data.indexOf("{")).split('\n').splice(params.remove+1,1)
 	var newData = data;
