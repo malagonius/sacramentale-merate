@@ -18,3 +18,4 @@
 {"famiglia":"Avila","quantita":2,"riunione":"9:00"}
 {"famiglia":"Gessati Davide","quantita":6,"riunione":"9:00"}
 {"famiglia":"Nicotra Davide","quantita":3,"riunione":"9:00"}
+{"famiglia":"Dallari","quantita":2,"riunione":"9:00"}
