@@ -9,3 +9,4 @@
 {"famiglia":"Avila","quantita":2,"riunione":"9:00"}
 {"famiglia":"Pereira","quantita":4,"riunione":"9:00"}
 {"famiglia":"Michela Gessati ","quantita":5,"riunione":"9:00"}
+{"famiglia":"Incontri ","quantita":1,"riunione":"9:00"}
