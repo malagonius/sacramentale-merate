@@ -2,3 +2,4 @@
 
 {"famiglia":"Alfredo Gessati","quantita":2,"riunione":"9:00"}
 {"famiglia":"Daniele Nicotra","quantita":5,"riunione":"9:00"}
+{"famiglia":"I missionari","quantita":3,"riunione":"9:00"}
