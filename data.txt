@@ -17,3 +17,5 @@
 {"famiglia":"Sara Mondelli ","quantita":1,"riunione":"9:00"}
 {"famiglia":"Muce e Pantaleo ","quantita":2,"riunione":"9:00"}
 {"famiglia":"Lo Bue","quantita":2,"riunione":"9:00"}
+
+{"famiglia":"Nicotra","quantita":1,"riunione":"9:00"}
