@@ -4,3 +4,4 @@
 {"famiglia":"Boer Manuel","quantita":4,"riunione":"9:00"}
 {"famiglia":"Emanuele Brigatti","quantita":2,"riunione":"9:00"}
 {"famiglia":"Missionari ","quantita":3,"riunione":"9:00"}
+{"famiglia":"Monica","quantita":1,"riunione":"9:00"}
