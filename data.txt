@@ -9,3 +9,4 @@
 {"famiglia":"Nicotra Fabio","quantita":2,"riunione":"9:00"}
 {"famiglia":"Daniele Nicotra","quantita":5,"riunione":"9:00"}
 {"famiglia":"Lo Bue","quantita":2,"riunione":"9:00"}
+{"famiglia":"Emmanuele Dallari","quantita":2,"riunione":"9:00"}
