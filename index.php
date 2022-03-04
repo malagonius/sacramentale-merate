@@ -18,10 +18,10 @@ header("Expires: 0"); // Proxies.
 	</div>
 	<h1>Rione di Merate</h1>
 	<h5>Riunione Sacramentale del <span id="giornoSacramentale"></span></h5>
-	<div class="jumbotron" style=" display:none ">
+	<div class="jumbotron" style="">
 	  <h1 class="display-4">Attenzione...</h1>
 	  <p class="lead" style="font-size: 1.5em;">
-		  Questa domenica si terrà la sacramentale della primaria<br> Per garantirne la buona riuscita  preghiamo i membri che non hanno figli o nipoti di seguirla via <a href="https://zoom.us/j/98084415406?pwd=merate" target="_blank">Zoom</a></p>
+		 I 70 posti verranno divisi quanto segue...<br> 50 Posti in sacramentale, 10 posti in primaria e 10 posti nel quorum </p>
 	  <hr class="my-4">
 	</div>
 	<div class="jumbotron" style="display:none">
@@ -96,6 +96,7 @@ header("Expires: 0"); // Proxies.
 							normative per i luoghi pubblici in emergenza Covid.<br> Questo significa che:
 							<ul>
 								<li>In chiesa potranno accedere un massimo di <span id="limit_L"></span> persone.</li>
+								<li>I posti verranno divisi tra sacramentale quorum e primaria</li>
 								<li>Per poter entrare bisogna avere la mascherina</li>
 								<li>All’ingresso verrà misurata la temperatura.</li>
 								<li>All’interno della Chiesa non si potrà fare assembramenti e si dovrà mantenere le distanze.</li>
