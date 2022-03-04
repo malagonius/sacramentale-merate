@@ -21,7 +21,7 @@ header("Expires: 0"); // Proxies.
 	<div class="jumbotron" style="">
 	  <h1 class="display-4">Attenzione...</h1>
 	  <p class="lead" style="font-size: 1.5em;">
-		 I posti sono aumentati a 70 e verranno divisi quanto segue...<br> 50 Posti in sacramentale, 10 posti in primaria e 10 posti nel quorum </p>
+		 I posti sono aumentati a 70 e verranno divisi come segue...<br> 50 Posti in sacramentale, 10 posti in primaria e 10 posti nel quorum </p>
 	  <hr class="my-4">
 	</div>
 	<div class="jumbotron" style="display:none">
