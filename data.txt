@@ -14,3 +14,4 @@
 {"famiglia":"Dallari valerio","quantita":4,"riunione":"9:00"}
 {"famiglia":"Fossati","quantita":2,"riunione":"9:00"}
 {"famiglia":"Nicotra Daniele ","quantita":5,"riunione":"9:00"}
+{"famiglia":"Renato Nicotra ","quantita":2,"riunione":"9:00"}
