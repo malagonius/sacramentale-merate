@@ -12,3 +12,4 @@
 {"famiglia":"Emmanuele Dallari","quantita":1,"riunione":"9:00"}
 {"famiglia":"Enrique.carcelen.98","quantita":1,"riunione":"9:00"}
 {"famiglia":"Missionari","quantita":2,"riunione":"9:00"}
+{"famiglia":"Michela Gessati ","quantita":2,"riunione":"9:00"}
