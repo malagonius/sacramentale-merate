@@ -7,3 +7,4 @@
 {"famiglia":"Daniele Nicotra","quantita":5,"riunione":"9:00"}
 {"famiglia":"Avila","quantita":2,"riunione":"9:00"}
 {"famiglia":"Sara Mondelli ","quantita":4,"riunione":"9:00"}
+{"famiglia":"Emanuele Brigatti","quantita":1,"riunione":"9:00"}
