@@ -202,8 +202,10 @@ loadData = function(isCcCleaner = false){
 		  return false;
 		}
 		if(isCcCleaner){
-			
-			deleteRecords()
+			confirm("Premendo so Ok si canelleranno i dati e verrai reindirizzato al sito di prenotazione, vuoi proseguire?"){
+				deleteRecords();
+				window.location.href = "https://sacramentale-merate.herokuapp.com/";
+			}
 			return false;
 		}
 	      	if(data === false){
