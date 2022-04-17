@@ -16,3 +16,4 @@
 {"famiglia":"Lo Bue","quantita":1,"riunione":"9:00"}
 {"famiglia":"Muiruri","quantita":5,"riunione":"9:00"}
 {"famiglia":"Nic mattia","quantita":4,"riunione":"9:00"}
+{"famiglia":"Boer","quantita":4,"riunione":"9:00"}
